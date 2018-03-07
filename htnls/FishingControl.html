@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="chs">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- ZUI 标准版压缩后的 CSS 文件 -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/zui/1.8.1/css/zui.min.css">
+	<!-- ZUI Javascript 依赖 jQuery -->
+	<script src="https://cdn.bootcss.com/zui/1.8.1/lib/jquery/jquery.js"></script>
+	<!-- ZUI 标准版压缩后的 JavaScript 文件 -->
+	<script src="https://cdn.bootcss.com/zui/1.8.1/js/zui.min.js"></script>
+	<link href="https://cdn.bootcss.com/zui/1.8.1/lib/datetimepicker/datetimepicker.min.css" rel="stylesheet">
+	<script src="https://cdn.bootcss.com/zui/1.8.1/lib/datetimepicker/datetimepicker.min.js"></script>
+	<title>疯狂钓鱼后台</title>
+</head>
+<body onload="onLoadDone()">
+	<div class="container">
+		<div class="panel panel-info">
+			<div class="panel-heading">
+				<a>订单查询</a>
+			</div>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>平台</th>
+						<th>订单号</th>
+						<th>订单状态</th>
+						<th>创建时间</th>
+						<th>更新时间</th>
+						<th>商品</th>
+						<th>价格</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td id="channel">...</td>
+						<td id="orderId">...</td>
+						<td id="state"	>...</td>
+						<td id="create"	>...</td>
+						<td id="update"	>...</td>
+						<td id="name"	>...</td>
+						<td id="price"	>...</td>
+					</tr>
+				</tbody>
+				<div>
+					<div class="input-group"  style="width:30%; float:right;">
+						<div class="input-control search-box search-box-circle has-icon-left has-icon-right search-example" id="searchboxExample">
+							<input id="SearchOrderId" type="search" class="form-control search-input" placeholder="订单号">
+							<label for="inputSearchExample3" class="input-control-icon-left search-icon"><i class="icon icon-search"></i></label>
+						</div>
+						<span class="input-group-btn">
+							<button class="btn btn-primary" type="button" onclick="getResult()">查询</button>
+						</span>
+					</div>
+					<label class="radio-inline" style="margin: 5px;">
+						<input type="radio" name="order_radio" value="fkdy" checked="checked">疯狂钓鱼
+					</label>
+					<label class="radio-inline" style="margin: 5px;">
+						<input type="radio" name="order_radio" value="ttady">天天爱钓鱼
+					</label>
+				</div>
+			</table>
+		</div>
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<b>游戏测试版 配置设置</b>
+				<button class="btn" type="button" onclick="getList()" style="margin:0px 5px 0px 10px;">刷新</button>
+			</div>
+			<!-- <div> -->
+				<!-- <label class="radio-inline" style="margin:10px;">
+					<input type="radio" name="config_radio" value="fkdy" checked="checked">疯狂钓鱼
+				</label>
+				<label class="radio-inline" style="margin:10px;">
+					<input type="radio" name="config_radio" value="ttady">天天爱钓鱼
+				</label> -->
+			<!-- </div> -->
+			<table class="table">
+				<thead>
+					<tr>
+						<th>平台</th>
+						<th>时间</th>
+					</tr>
+				</thead>
+				<tbody id="gameConfig">
+						<tr>
+							<td>...</td>
+							<td>...</td>
+						</tr>
+				</tbody>
+			</table>
+			<div class="panel panel-footer">
+				<td id="cf_btnmod" style="width:300px;">
+					<div class="input-control has-label-left" style="width:200px; float:left;">
+						<input id="inputChannel" type="text" class="form-control" placeholder="">
+						<label for="inputAccountExample3" class="input-control-label-left text-left">渠道</label>
+					</div>
+					<input id="inputTime" type="text" class="form-control form-date" placeholder="选择日期：yyyy-MM-dd" style="width:200px; float:left;">
+					<button class="btn" type="button" onclick="changeTime()">修改</button>
+					<b>ps:如果手动输入时间 请按照格式输入</b>
+				</td>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">  
+		function getResult()
+		{
+			var id = window.document.getElementById("SearchOrderId").value;
+			var gtype = $('input:radio[name="order_radio"]:checked').val();
+			// console.log(id);
+			if (id == "") // 或者是!nameValue  
+			{  
+				window.alert("订单不能为空!");  
+				return false;  
+			} 
+			$.ajax({  
+				type: "get", 
+				cache:false,
+				async:false,
+				dataType : "jsonp",
+				//传递给请求处理程序，用以获得jsonp回调函数名的参数名(默认为:callback)
+				jsonp: "jsoncallback",
+				//自定义的jsonp回调函数名称，默认为jQuery自动生成的随机函数名
+				jsonpCallback:"successCallback",
+				url:"http://cloud.bmob.cn/f360de34f96109f9/CheckBackground", 
+				data: {'gtype':gtype,'orderId' : id,"opt":"checkOrder"},
+				success:function(data)  
+				{  
+					new $.zui.Messager('提示消息：成功', {
+						type: 'success' // 定义颜色主题
+					}).show();
+					var dataObject = JSON.parse(data);
+					$("#channel").html(dataObject.channel);
+					$("#create").html(dataObject.createdAt);
+					$("#update").html(dataObject.updatedAt);
+					$("#orderId").html(dataObject.objectId);
+					$("#name").html(dataObject.productName);
+					$("#state").html(stateStr(dataObject.state));
+					$("#price").html(dataObject.price);
+					$("#SearchOrderId").val("");
+				} 
+			}); 
+		}
+
+		function stateStr(state){
+			switch(state){
+				case 0:
+					return "等待付款";
+				case 1:
+					return "支付成功,等待发货";
+				case 2:
+					return "发货成功";
+			}
+			return "null";
+		}
+
+		function initDatePick(){
+			// 选择时间和日期
+			$(".form-date").datetimepicker(
+			{
+				language:  "zh-CN",
+				weekStart: 1,
+				todayBtn:  1,
+				autoclose: 1,
+				todayHighlight: 1,
+				startView: 2,
+				minView: 2,
+				forceParse: 0,
+				format: "yyyy/mm/dd"
+			});
+		}
+
+		function addTable(_channel,_time,_index){
+			//动态创建一个tr行标签,并且转换成jQuery对象
+			var $trTemp = $("<tr></tr>");
+
+			//往行里面追加 td单元格
+			$trTemp.append("<td id=\"lsch_"+_channel+"\">"+ _channel +"</td>");
+			$trTemp.append("<td id=\"lstm_"+_channel+"\">"+ _time +"</td>");
+			// $("#J_TbData").append($trTemp);
+			$trTemp.appendTo("#gameConfig");
+		}
+		function getList()
+		{
+			// var gtype = $('input:radio[name="config_radio"]:checked').val();
+			$.ajax({  
+				type: "get", 
+				cache:false,
+				async:false,
+				dataType : "jsonp",
+				//传递给请求处理程序，用以获得jsonp回调函数名的参数名(默认为:callback)
+				jsonp: "jsoncallback",
+				//自定义的jsonp回调函数名称，默认为jQuery自动生成的随机函数名
+				jsonpCallback:"getListCallback",
+				url:"http://cloud.bmob.cn/f360de34f96109f9/CheckBackground", 
+				data: {'opt' : 'getConfigs'},
+				success:function(data)  
+				{  
+					new $.zui.Messager('提示消息：成功', {
+						type: 'success' // 定义颜色主题
+					}).show();
+					$("#gameConfig").empty();
+					var dataObject = JSON.parse(data);
+					for(var i = 0; i < dataObject.results.length; i++){
+						var item = dataObject.results[i];
+						addTable(item.channel,item.time);
+					}
+				} 
+			}); 
+		}
+		function changeTime()
+		{
+			var channel = window.document.getElementById("inputChannel").value;
+			if (channel == "") // 或者是!nameValue  
+			{  
+				window.alert("渠道不能为空!");  
+				return false;  
+			}
+			var time = window.document.getElementById("inputTime").value;
+			if (time == "") // 或者是!nameValue  
+			{  
+				window.alert("时间不能为空!");  
+				return false;  
+			}
+			console.log(channel + ' ' + time);
+			// var gtype = $('input:radio[name="config_radio"]:checked').val();
+			$.ajax({  
+				type: "get", 
+				cache:false,
+				async:false,
+				dataType : "jsonp",
+				//传递给请求处理程序，用以获得jsonp回调函数名的参数名(默认为:callback)
+				jsonp: "jsoncallback",
+				//自定义的jsonp回调函数名称，默认为jQuery自动生成的随机函数名
+				jsonpCallback:"changeCallback",
+				url:"http://cloud.bmob.cn/f360de34f96109f9/CheckBackground", 
+				data: {'opt' : 'updateConfig',"channel":channel,"time":time},
+				success:function(data)
+				{  
+					new $.zui.Messager('提示消息：成功', {
+						type: 'success' // 定义颜色主题
+					}).show();
+					var dataObject = JSON.parse(data);
+					var name = "#lstm_" + dataObject.channel;
+					$(name).html(dataObject.time);
+					$("#inputChannel").val("");
+				} 
+			}); 
+		}
+		function onLoadDone(){
+			initDatePick();
+		}
+	  </script>
+</body>
+
+</html>
