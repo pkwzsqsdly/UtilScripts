@@ -76,30 +76,54 @@
 					<input type="radio" name="config_radio" value="ttady">天天爱钓鱼
 				</label> -->
 			<!-- </div> -->
-			<table class="table">
+			<table class="table table-striped">
+				<label class="radio-inline" style="margin: 5px;">
+					<input type="radio" name="config_radio" value="debug" checked="checked">测试配置
+				</label>
+				<label class="radio-inline" style="margin: 5px;">
+					<input type="radio" name="config_radio" value="release">线上配置
+				</label>
 				<thead>
 					<tr>
 						<th>平台</th>
 						<th>时间</th>
+						<th>QQ群</th>
+						<th>广告开关</th>
+						<th>抽奖次数</th>
+						<th>公告内容</th>
+						<th>活动配置</th>
 					</tr>
 				</thead>
 				<tbody id="gameConfig">
 						<tr>
 							<td>...</td>
 							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
+							<td>...</td>
 						</tr>
 				</tbody>
 			</table>
 			<div class="panel panel-footer">
-				<td id="cf_btnmod" style="width:300px;">
-					<div class="input-control has-label-left" style="width:200px; float:left;">
-						<input id="inputChannel" type="text" class="form-control" placeholder="">
-						<label for="inputAccountExample3" class="input-control-label-left text-left">渠道</label>
-					</div>
+				<div class="input-group">
+					<input id="inputChannel" type="text" class="form-control" placeholder="渠道">
+					<span class="input-group-addon fix-border fix-padding"></span>
+					<input id="inputQQ" type="text" class="form-control" placeholder="QQ群">
+					<span class="input-group-addon fix-border fix-padding"></span>
+					<input id="inputLottery" type="text" class="form-control" placeholder="抽奖次数 默认-1">
+					<span class="input-group-addon fix-border fix-padding"></span>
+					<input id="inputAd" type="text" class="form-control" placeholder="广告开关 输入开/关(true/false)">
+					<span class="input-group-addon fix-border fix-padding"></span>
+					<input id="inputActivity" type="text" class="form-control" placeholder="活动配置 json格式">
+					<span class="input-group-addon fix-border fix-padding"></span>
 					<input id="inputTime" type="text" class="form-control form-date" placeholder="选择日期：yyyy-MM-dd" style="width:200px; float:left;">
+				</div>
+				<div>
 					<button class="btn" type="button" onclick="changeTime()">修改</button>
-					<b>ps:如果手动输入时间 请按照格式输入</b>
-				</td>
+					<b>ps:如果手动输入时间 请按照格式输入 输入0为当前时间</b>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -171,19 +195,25 @@
 			});
 		}
 
-		function addTable(_channel,_time,_index){
+		function addTable(_channel,_time,_qq,_notice,_lottery,_active,_adOpen){
 			//动态创建一个tr行标签,并且转换成jQuery对象
 			var $trTemp = $("<tr></tr>");
 
 			//往行里面追加 td单元格
-			$trTemp.append("<td id=\"lsch_"+_channel+"\">"+ _channel +"</td>");
-			$trTemp.append("<td id=\"lstm_"+_channel+"\">"+ _time +"</td>");
+			$trTemp.append("<td id=\"lsch_channel_"+_channel+"\">"+ _channel +"</td>");
+			$trTemp.append("<td id=\"lstm_time_"+_channel+"\">"+ _time +"</td>");
+			$trTemp.append("<td id=\"lstm_qq_"+_channel+"\">"+ _qq +"</td>");
+			$trTemp.append("<td id=\"lstm_adOpen_"+_channel+"\">"+ _adOpen +"</td>");
+			$trTemp.append("<td id=\"lstm_lottery_"+_channel+"\">"+ _lottery + "</td>");
+			$trTemp.append("<td id=\"lstm_notice_"+_channel+"\">"+ _notice +"</td>");
+			$trTemp.append("<td id=\"lstm_active_"+_channel+"\">"+ _active +"</td>");
+			
 			// $("#J_TbData").append($trTemp);
 			$trTemp.appendTo("#gameConfig");
 		}
 		function getList()
 		{
-			// var gtype = $('input:radio[name="config_radio"]:checked').val();
+			var configType = $('input:radio[name="config_radio"]:checked').val();
 			$.ajax({  
 				type: "get", 
 				cache:false,
@@ -194,7 +224,7 @@
 				//自定义的jsonp回调函数名称，默认为jQuery自动生成的随机函数名
 				jsonpCallback:"getListCallback",
 				url:"http://cloud.bmob.cn/f360de34f96109f9/CheckBackground", 
-				data: {'opt' : 'getConfigs'},
+				data: {'opt' : 'getConfigs',"configType":configType},
 				success:function(data)  
 				{  
 					new $.zui.Messager('提示消息：成功', {
@@ -204,11 +234,19 @@
 					var dataObject = JSON.parse(data);
 					for(var i = 0; i < dataObject.results.length; i++){
 						var item = dataObject.results[i];
-						addTable(item.channel,item.time);
+						
+						addTable(item.channel,item.time,item.qq,item.notice,item.lotteryCount,item.activity,item.isAdOpen);
 					}
 				} 
 			}); 
 		}
+
+		function updateCell(cellId,cellVal){
+			if(cellVal != undefined){
+				$(cellId).html(cellVal);
+			}
+		}
+
 		function changeTime()
 		{
 			var channel = window.document.getElementById("inputChannel").value;
@@ -218,13 +256,14 @@
 				return false;  
 			}
 			var time = window.document.getElementById("inputTime").value;
-			if (time == "") // 或者是!nameValue  
-			{  
-				window.alert("时间不能为空!");  
-				return false;  
-			}
+			var qq = window.document.getElementById("inputQQ").value;
+			var lottery = window.document.getElementById("inputLottery").value;
+			var ad = window.document.getElementById("inputAd").value;
+			var activity = window.document.getElementById("inputActivity").value;
+			
 			console.log(channel + ' ' + time);
-			// var gtype = $('input:radio[name="config_radio"]:checked').val();
+			var configType = $('input:radio[name="config_radio"]:checked').val();
+
 			$.ajax({  
 				type: "get", 
 				cache:false,
@@ -235,16 +274,40 @@
 				//自定义的jsonp回调函数名称，默认为jQuery自动生成的随机函数名
 				jsonpCallback:"changeCallback",
 				url:"http://cloud.bmob.cn/f360de34f96109f9/CheckBackground", 
-				data: {'opt' : 'updateConfig',"channel":channel,"time":time},
+				data: {'opt' : 'updateConfig',
+					"configType":configType,
+					"channel":channel,
+					"time":time,
+					"qq":qq,
+					"lotteryCount":lottery,
+					"isAdOpen":ad,
+					"activity":activity},
 				success:function(data)
 				{  
 					new $.zui.Messager('提示消息：成功', {
 						type: 'success' // 定义颜色主题
 					}).show();
 					var dataObject = JSON.parse(data);
-					var name = "#lstm_" + dataObject.channel;
-					$(name).html(dataObject.time);
+					var timeId = "#lstm_time_" + dataObject.channel;
+					var qqId = "#lstm_qq_" + dataObject.channel;
+					var adId = "#lstm_adOpen_" + dataObject.channel;
+					var lotteryId = "#lstm_lottery_" + dataObject.channel;
+					var noticeId = "#lstm_notice_" + dataObject.channel;
+					var activeId = "#lstm_active_" + dataObject.channel;
+					
+					updateCell(timeId,dataObject.time);
+					updateCell(qqId,dataObject.qq);
+					updateCell(lotteryId,dataObject.lotteryCount);
+					updateCell(adId,dataObject.isAdOpen);
+					updateCell(noticeId,dataObject.notice);
+					updateCell(activeId,dataObject.activity);
+
 					$("#inputChannel").val("");
+					$("#inputTime").val("");
+					$("#inputQQ").val("");
+					$("#inputLottery").val("");
+					$("#inputAd").val("");
+					$("#inputActivity").val("");
 				} 
 			}); 
 		}
