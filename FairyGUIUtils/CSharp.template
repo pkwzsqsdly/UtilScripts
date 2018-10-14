@@ -1,0 +1,15 @@
+using FairyGUI;
+using FairyGUI.Utils;
+
+public partial class {className}View : IFairyGUIView<{componentName}>
+{
+	public GComponent m_UI {get;set;}
+{variable}
+	public void BindUI() {
+{content}
+	}
+
+	public GComponent CreateView(){
+{createScripts}
+	}
+}
