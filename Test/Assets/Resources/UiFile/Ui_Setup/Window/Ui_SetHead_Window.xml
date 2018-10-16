@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="580,650">
+  <displayList>
+    <component id="n7_qioy" name="Bg" src="i5g7104" fileName="Ui_Common_Part/Ui_CommonKuang_Part.xml" pkg="5cinh7cr" xy="0,0" size="580,650">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <list id="n11_qioy" name="listIcon" xy="15,100" size="550,450" layout="flow_hz" selectionMode="none" overflow="scroll" scrollBarFlags="32" defaultItem="ui://f0qleca3jye2f" align="center" vAlign="middle">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item icon="ui://5cinh7crelne12a"/>
+      <item icon="ui://5cinh7crelne12b"/>
+      <item icon="ui://5cinh7crelne12c"/>
+      <item icon="ui://5cinh7crelne12d"/>
+      <item icon="ui://5cinh7crelne12e"/>
+      <item icon="ui://5cinh7crelne12f"/>
+      <item icon="ui://5cinh7crelne12g"/>
+      <item icon="ui://5cinh7crelne12h"/>
+      <item icon="ui://5cinh7crelne12i"/>
+      <item icon="ui://5cinh7crelne12j"/>
+      <item icon="ui://5cinh7crelne12k"/>
+      <item icon="ui://5cinh7crelne12l"/>
+      <item icon="ui://5cinh7crelne12m"/>
+      <item icon="ui://5cinh7crelne12n"/>
+      <item icon="ui://5cinh7crelne12o"/>
+      <item icon="ui://5cinh7crelne12p"/>
+      <item icon="ui://5cinh7crelne12q"/>
+      <item icon="ui://5cinh7crelne12r"/>
+      <item icon="ui://5cinh7crelne12s"/>
+      <item icon="ui://5cinh7crelne12t"/>
+      <item icon="ui://5cinh7crelne12u"/>
+      <item icon="ui://5cinh7crelne12v"/>
+      <item icon="ui://5cinh7crelne12w"/>
+      <item icon="ui://5cinh7crelne12x"/>
+      <item icon="ui://5cinh7crelne12y"/>
+      <item icon="ui://5cinh7crelne12z"/>
+      <item icon="ui://5cinh7crelne130"/>
+      <item icon="ui://5cinh7crelne131"/>
+      <item icon="ui://5cinh7crelne132"/>
+      <item icon="ui://5cinh7crelne133"/>
+    </list>
+    <component id="n27_qioy" name="Button_Ent" src="8zkt11i" fileName="Ui_Common_Part/Ui_Button05_Part.xml" pkg="5cinh7cr" xy="196,572" size="186,54">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

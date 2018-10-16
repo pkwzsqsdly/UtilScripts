@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" adaptationTest="FitSize">
+  <controller name="Equip1" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <image id="n1_tksi" name="n1" src="rgx31a" fileName="Image/beibao_anniu02.png" xy="0,0" size="720,1269">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n96_iz1s" name="n96" src="rgx3x" fileName="Image/beibao_zhanshi01.png" xy="0,0" size="720,621">
+      <relation target="" sidePair="top-top,width-width"/>
+    </image>
+    <component id="n0_tksi" name="Top" src="i2msu5" fileName="Ui_Common_Part/Ui_Top_Part.xml" pkg="5cinh7cr" xy="0,0" size="720,60">
+      <relation target="" sidePair="top-top,width-width"/>
+    </component>
+    <image id="n3_tksi" name="n3" src="g4u2up" fileName="Common_Image/diguang_01.png" pkg="5cinh7cr" xy="0,480" size="720,800">
+      <relation target="n1_tksi" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n75_e05y" name="Title_ZhanDouLi" xy="17,382" size="110,38" group="n77_e05y" fontSize="24" color="#ffffff" align="right" vAlign="middle" autoSize="none" text="战斗力："/>
+    <text id="n76_e05y" name="Title_ComatNum" xy="132,381" size="127,40" group="n77_e05y" font="ui://5cinh7cre05yw0" fontSize="24" color="#ffffff" vAlign="middle" leading="0" letterSpacing="-5" autoSize="none" text="2325625"/>
+    <group id="n77_e05y" name="Comt_Comat" xy="17,381" size="241,40" advanced="true" collapsed="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <image id="n37_e05y" name="BgShuXin" src="rgx316" fileName="Image/beibao_biankuang01.png" xy="11,71" size="300,291"/>
+    <component id="n166_huzf" name="lab_Atk" src="huzf1l" fileName="Part/Ui_BagAtt_Part.xml" xy="21,90" group="n78_e05y">
+      <Label title="伤害" icon="ui://gjzxgu4grgx314"/>
+    </component>
+    <component id="n167_huzf" name="lab_Line" src="huzf1l" fileName="Part/Ui_BagAtt_Part.xml" xy="21,156" group="n78_e05y">
+      <Label title="鱼线" icon="ui://gjzxgu4grgx3s"/>
+    </component>
+    <component id="n168_huzf" name="lab_CirtAtk" src="huzf1l" fileName="Part/Ui_BagAtt_Part.xml" xy="21,222" group="n78_e05y">
+      <Label title="baojishanghao" icon="ui://gjzxgu4grgx311"/>
+    </component>
+    <component id="n169_huzf" name="lab_Crit" src="huzf1l" fileName="Part/Ui_BagAtt_Part.xml" xy="21,288" group="n78_e05y">
+      <Label title="暴击" icon="ui://gjzxgu4grgx310"/>
+    </component>
+    <group id="n78_e05y" name="Comt_ShuXin" xy="21,90" size="280,254" advanced="true" collapsed="true" layout="vt" lineGap="10">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <list id="n19_tksi" name="List_BigEquip" xy="139,552" size="575,714" overflow="scroll" lineGap="5" defaultItem="ui://gjzxgu4gvwqr7" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+    </list>
+    <list id="n161_b9sn" name="List_ShopEquip" xy="139,552" size="575,714" overflow="scroll" lineGap="5" defaultItem="ui://gjzxgu4gn4som" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n14_tksi" name="ls+BtnItemType_1" src="bbmu1i" fileName="Part/Ui_EquipTypTag_Part.xml" xy="0,440" size="129,173" group="n18_tksi">
+      <Button checked="true" icon="ui://gjzxgu4grgx3v" controller="Equip1" page="0"/>
+    </component>
+    <component id="n15_tksi" name="ls+BtnItemType_2" src="bbmu1i" fileName="Part/Ui_EquipTypTag_Part.xml" xy="0,613" size="129,173" group="n18_tksi">
+      <Button icon="ui://gjzxgu4grgx3t" controller="Equip1" page="1"/>
+    </component>
+    <component id="n16_tksi" name="ls+BtnItemType_3" src="bbmu1i" fileName="Part/Ui_EquipTypTag_Part.xml" xy="0,786" size="129,173" group="n18_tksi">
+      <Button icon="ui://gjzxgu4grgx3u" controller="Equip1" page="2"/>
+    </component>
+    <component id="n17_tksi" name="ls+BtnItemType_4" src="bbmu1i" fileName="Part/Ui_EquipTypTag_Part.xml" xy="0,959" size="129,171" group="n18_tksi">
+      <Button icon="ui://gjzxgu4grgx3w" controller="Equip1" page="3"/>
+    </component>
+    <group id="n18_tksi" name="Comt_Icon" xy="0,440" size="129,690" advanced="true" collapsed="true" layout="vt">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <component id="n171_rf3o" name="TabTop" src="e05yk" fileName="Part/Ui_BagBt_Part.xml" xy="135,440" size="580,106">
+      <relation target="" sidePair="width-width,top-top"/>
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <image id="n27_e05y" name="n27" src="rgx3p" fileName="Image/beibao_tiao01.png" xy="0,430" size="720,10">
+      <relation target="" sidePair="width-width,top-top"/>
+    </image>
+    <component id="n172_rf3o" name="EquipInfo" src="rf3o1m" fileName="Part/Ui_EquipInfo_Part.xml" xy="136,550" size="580,724">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n97_i5g7" name="ls+Icon_1" src="vwqrvy" fileName="Ui_CommonButton_Part/Ui_ItemInfo_Part.xml" pkg="5cinh7cr" xy="408,77" size="90,90" group="n174_koxx" scale="0.8,0.8">
+      <relation target="n162_bbmu" sidePair="right-left,middle-middle"/>
+    </component>
+    <component id="n162_bbmu" name="ls+Icon_2" src="vwqrvy" fileName="Ui_CommonButton_Part/Ui_ItemInfo_Part.xml" pkg="5cinh7cr" xy="484,77" size="90,90" group="n174_koxx" scale="0.8,0.8">
+      <relation target="n163_bbmu" sidePair="right-left,middle-middle"/>
+    </component>
+    <component id="n163_bbmu" name="ls+Icon_3" src="vwqrvy" fileName="Ui_CommonButton_Part/Ui_ItemInfo_Part.xml" pkg="5cinh7cr" xy="560,77" size="90,90" group="n174_koxx" scale="0.8,0.8">
+      <relation target="n164_bbmu" sidePair="right-left,middle-middle"/>
+    </component>
+    <component id="n164_bbmu" name="ls+Icon_4" src="vwqrvy" fileName="Ui_CommonButton_Part/Ui_ItemInfo_Part.xml" pkg="5cinh7cr" xy="636,77" size="90,90" group="n174_koxx" scale="0.8,0.8">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <group id="n174_koxx" name="n174" xy="408,77" size="318,90" collapsed="true"/>
+  </displayList>
+</component>

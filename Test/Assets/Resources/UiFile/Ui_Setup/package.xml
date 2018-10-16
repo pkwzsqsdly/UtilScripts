@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="f0qleca3" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="n4so0" name="Ui_Set_Window.xml" path="/Window/" exported="true"/>
+    <component id="n4so2" name="Ui_YinXiao_Part.xml" path="/Part/" exported="true"/>
+    <component id="qioy4" name="Ui_SetHead_Window.xml" path="/Window/" exported="true"/>
+    <image id="i5g75" name="shezhi_zhendong01.png" path="/Image/" exported="true"/>
+    <image id="8zktc" name="shezhi_zhendong02.png" path="/Image/" exported="true"/>
+    <image id="8zktd" name="shezhi_yinxiao01.png" path="/Image/" exported="true"/>
+    <image id="8zkte" name="shezhi_yinyue01.png" path="/Image/" exported="true"/>
+    <component id="jye2f" name="Ui_SelectIcon_Part.xml" path="/Part/" exported="true"/>
+  </resources>
+  <publish name="Ui_Setup"/>
+</packageDescription>

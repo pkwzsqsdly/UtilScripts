@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,603">
+  <displayList>
+    <graph id="n1_nbt8" name="n1" xy="0,305" size="720,260" group="n8_nbt8" type="rect" lineSize="4" lineColor="#ffff9933" fillColor="#b3333333">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <text id="n3_nbt8" name="Title_NpcName" xy="102,315" size="119,33" group="n8_nbt8" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="钓鱼李"/>
+    <loader id="n4_nbt8" name="Loader_Npc" xy="58,0" size="228,305" group="n8_nbt8"/>
+    <text id="n6_nbt8" name="Title_JuQinTxt" xy="34,377" size="667,152" group="n8_nbt8" fontSize="24" color="#ff9900" vAlign="middle" autoSize="none" bold="true" text="你大爷，你大爷">
+      <relation target="n1_nbt8" sidePair="width-width"/>
+    </text>
+    <component id="n7_nbt8" name="Button_TiaoGuo" src="nbt8125" fileName="Ui_Common_Part/Ui_ButtonTiaoGuo_Part.xml" pkg="5cinh7cr" xy="545,573" size="131,30" group="n8_nbt8">
+      <relation target="" sidePair="right-right"/>
+    </component>
+    <group id="n8_nbt8" name="Comt_Taks" xy="0,0" size="720,603" advanced="true">
+      <relation target="" sidePair="top-bottom"/>
+    </group>
+  </displayList>
+</component>

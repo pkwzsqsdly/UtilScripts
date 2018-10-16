@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,30" extention="Label">
+  <displayList>
+    <loader id="n3_ncub" name="icon" xy="0,0" size="30,30" vAlign="bottom"/>
+    <text id="n1" name="title" xy="40,0" size="80,30" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

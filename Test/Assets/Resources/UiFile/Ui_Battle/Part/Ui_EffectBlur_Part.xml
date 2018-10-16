@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <image id="n0_o2mn" name="lt" src="ry9f1u" fileName="Image/Fish_img_shanggouxiaoguo.png" xy="0,0" size="338,640" aspect="true">
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="top-top,left-left"/>
+    </image>
+    <image id="n1_o2mn" name="lb" src="ry9f1u" fileName="Image/Fish_img_shanggouxiaoguo.png" xy="0,641" size="338,640" aspect="true" flip="vt">
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </image>
+    <image id="n2_o2mn" name="tb" src="ry9f1u" fileName="Image/Fish_img_shanggouxiaoguo.png" xy="381,641" size="338,640" aspect="true" flip="both">
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <image id="n3_o2mn" name="rt" src="ry9f1u" fileName="Image/Fish_img_shanggouxiaoguo.png" xy="381,1" size="338,640" aspect="true" flip="hz">
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <relation target="" sidePair="top-top,right-right"/>
+    </image>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n0_o2mn" tween="true" startValue="1" endValue="0" duration="5" ease="Linear"/>
+    <item time="0" type="Alpha" target="n3_o2mn" tween="true" startValue="1" endValue="0" duration="5" ease="Linear"/>
+    <item time="0" type="Alpha" target="n1_o2mn" tween="true" startValue="1" endValue="0" duration="5" ease="Linear"/>
+    <item time="0" type="Alpha" target="n2_o2mn" tween="true" startValue="1" endValue="0" duration="5" ease="Linear"/>
+  </transition>
+</component>

@@ -14,3 +14,18 @@ public class UiElement : MonoBehaviour {
 		
 	}
 }
+
+public class UIElement{
+	public Vector2 pos;
+	public Vector2 size;
+	public string uiType;
+	public string resource;
+	public bool isComponent;
+	public List<UIElement> childs;
+}
+
+public class UIElementImage:UIElement{
+	public UIElementImage(){
+		uiType = "Image";
+	}
+}

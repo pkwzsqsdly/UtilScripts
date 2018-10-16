@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,600">
+  <displayList>
+    <image id="n0_nbt8" name="n0" src="h2k1z4" fileName="Common_Image1/meir_xiaokuang01.png" pkg="5cinh7cr" xy="35,124" size="530,136"/>
+    <image id="n15_nbt8" name="n15" src="h2k1z4" fileName="Common_Image1/meir_xiaokuang01.png" pkg="5cinh7cr" xy="39,460" size="530,136">
+      <relation target="n14_nbt8" sidePair="center-center,bottom-top"/>
+    </image>
+    <image id="n14_nbt8" name="n14" src="h2k1z4" fileName="Common_Image1/meir_xiaokuang01.png" pkg="5cinh7cr" xy="41,294" size="530,136">
+      <relation target="n0_nbt8" sidePair="center-center,bottom-top"/>
+    </image>
+    <component id="n13_nbt8" name="Button_Main" src="h2k1ze" fileName="Ui_CommonButton_Part/Ui_FuncitBut_Part.xml" pkg="5cinh7cr" xy="88,138">
+      <relation target="n0_nbt8" sidePair="left-left,middle-middle"/>
+      <Button icon="ui://5cinh7crnbt8127"/>
+    </component>
+    <component id="n11_nbt8" name="Button_Aqu" src="h2k1ze" fileName="Ui_CommonButton_Part/Ui_FuncitBut_Part.xml" pkg="5cinh7cr" xy="255,141" size="87,108">
+      <relation target="n0_nbt8" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://5cinh7crv6063h"/>
+    </component>
+    <component id="n12_nbt8" name="Button_Word" src="h2k1ze" fileName="Ui_CommonButton_Part/Ui_FuncitBut_Part.xml" pkg="5cinh7cr" xy="422,138">
+      <relation target="n0_nbt8" sidePair="right-right,middle-middle"/>
+      <Button icon="ui://5cinh7crnbt8128"/>
+    </component>
+    <component id="n7_nbt8" name="Button_Bag" src="h2k1ze" fileName="Ui_CommonButton_Part/Ui_FuncitBut_Part.xml" pkg="5cinh7cr" xy="255,313">
+      <relation target="n15_nbt8" sidePair="left-left,middle-middle"/>
+      <Button icon="ui://5cinh7crrgx3zq"/>
+    </component>
+    <component id="n8_nbt8" name="Button_Shop" src="h2k1ze" fileName="Ui_CommonButton_Part/Ui_FuncitBut_Part.xml" pkg="5cinh7cr" xy="422,313">
+      <relation target="n15_nbt8" sidePair="right-right,middle-middle"/>
+      <Button icon="ui://5cinh7crrgx3zp"/>
+    </component>
+    <component id="n19_nbt8" name="Button_Clost" src="jvb3v5" fileName="Ui_CommonButton_Part/Ui_Colst_Part.xml" pkg="5cinh7cr" xy="503,9" size="93,92">
+      <relation target="n0_nbt8" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n9_nbt8" name="Button_ChenJiu" src="h2k1ze" fileName="Ui_CommonButton_Part/Ui_FuncitBut_Part.xml" pkg="5cinh7cr" xy="88,313">
+      <relation target="n14_nbt8" sidePair="left-left,middle-middle"/>
+      <Button icon="ui://5cinh7crh2k1ym"/>
+    </component>
+    <component id="n10_nbt8" name="Button_FishBook" src="h2k1ze" fileName="Ui_CommonButton_Part/Ui_FuncitBut_Part.xml" pkg="5cinh7cr" xy="88,473">
+      <relation target="n14_nbt8" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://5cinh7crh2k1yj"/>
+    </component>
+    <component id="n4_nbt8" name="Button_Box" src="h2k1ze" fileName="Ui_CommonButton_Part/Ui_FuncitBut_Part.xml" pkg="5cinh7cr" xy="422,314" hideByEditor="true" visible="false">
+      <relation target="n14_nbt8" sidePair="right-right,middle-middle"/>
+      <Button icon="ui://5cinh7crh2k1yk"/>
+    </component>
+  </displayList>
+</component>

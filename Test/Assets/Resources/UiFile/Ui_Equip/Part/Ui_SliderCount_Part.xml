@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="552,12" extention="Slider">
+  <displayList>
+    <image id="n1" name="n1" src="h2k1wr" fileName="Common_Bar/zhu_jingyan01.png" pkg="5cinh7cr" xy="0,0" size="552,12">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="bar" src="h2k1wp" fileName="Common_Bar/zhu_jingyan02.png" pkg="5cinh7cr" xy="4,3" size="544,6"/>
+    <text id="n3" name="title" xy="492,-40" size="110,27" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="0">
+      <relation target="n5_ppvo" sidePair="center-center,bottom-top"/>
+    </text>
+    <component id="n5_ppvo" name="grip" src="avfhm" fileName="Part/Ui_SliderCountGrip_Part.xml" xy="528,-14" size="40,40">
+      <relation target="n2" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Slider titleType="value"/>
+</component>

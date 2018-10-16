@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="610,120">
+  <displayList>
+    <loader id="n32_lq1i" name="Loader_n32" xy="0,1" size="610,119" group="n39_d4cc">
+      <relation target="n5_coa6" sidePair="width-width,height-height"/>
+    </loader>
+    <image id="n5_coa6" name="n5" src="rgx3zj" fileName="Common_Image1/beibao_dikuang01.png" xy="0,1" size="610,119" group="n39_d4cc">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n36_lq1i" name="jiangli_36" src="nxtq10e" fileName="Ui_Common_Part/Ui_Icon_Part.xml" xy="240,18" size="90,90" group="n38_lq1i"/>
+    <component id="n37_lq1i" name="jiangli_37" src="nxtq10e" fileName="Ui_Common_Part/Ui_Icon_Part.xml" xy="340,18" size="90,90" group="n38_lq1i"/>
+    <group id="n38_lq1i" name="Comb_1" xy="240,18" size="180,80" group="n39_d4cc" advanced="true">
+      <relation target="n5_coa6" sidePair="middle-middle,center-center"/>
+    </group>
+    <image id="n10_coa6" name="n10" src="h2k1z7" fileName="Common_Image1/meir_biaoqian01.png" xy="-1,8" size="199,41" group="n21_coa6"/>
+    <text id="n11_coa6" name="title_n11" xy="5,12" size="194,39" group="n21_coa6" fontSize="26" color="#ffffff" autoSize="shrink" bold="true" text="土豪的世界"/>
+    <text id="n12_coa6" name="title_n12" xy="11,55" size="201,43" group="n21_coa6" fontSize="20" color="#666666" vAlign="middle" autoSize="shrink" text="获得50000000金币"/>
+    <group id="n21_coa6" name="Comb_2" xy="2,4" size="210,80" group="n39_d4cc" advanced="true">
+      <relation target="n5_coa6" sidePair="left-left,top-top"/>
+    </group>
+    <component id="n20_coa6" name="button_n1" src="nt64147" fileName="Ui_CommonButton_Part/Ui_ButtonCommon5_Part.xml" xy="483,25" size="91,36" group="n39_d4cc" aspect="true">
+      <relation target="n5_coa6" sidePair="right-right,middle-middle"/>
+    </component>
+    <image id="n30_i2ms" name="jiangliTape" src="h2k1z6" fileName="Common_Image1/meir_lingqv01.png" xy="489,16" pivot="0.5,0.5" size="85,87" group="n39_d4cc" scale="0.9,0.9" rotation="15">
+      <relation target="n5_coa6" sidePair="middle-middle,right-right"/>
+    </image>
+    <image id="n40_rgx3" name="n40" src="h2k1z8" fileName="Common_Image1/meir_xixian01.png" xy="449,18" size="4,83" group="n39_d4cc">
+      <relation target="n5_coa6" sidePair="middle-middle,left-left"/>
+      <relation target="n5_coa6" sidePair="right-right"/>
+    </image>
+    <component id="n29_i2ms" name="Bar_01" src="bbmu11t" fileName="Ui_Common_Part/Ui_Bar3_Part.xml" xy="475,64" size="110,20" group="n42_rgx3">
+      <ProgressBar value="51" max="100"/>
+    </component>
+    <text id="n41_rgx3" name="title_JinDuNum" xy="502,39" pivot="0.5,0.5" size="48,23" group="n42_rgx3" fontSize="18" color="#0000cc" align="center" vAlign="middle" text="15/20"/>
+    <group id="n42_rgx3" name="Comt_JinDu" xy="475,39" size="110,45" group="n39_d4cc" advanced="true">
+      <relation target="n5_coa6" sidePair="left-left,middle-middle"/>
+      <relation target="n5_coa6" sidePair="right-right"/>
+    </group>
+    <group id="n39_d4cc" name="Comb_All" xy="0,1" size="610,119" advanced="true"/>
+  </displayList>
+  <transition name="t2">
+    <item time="6" type="Scale" target="n30_i2ms" tween="true" startValue="2,2" endValue="0.9,0.9" duration="12" ease="Back.In"/>
+    <item time="18" type="Scale" target="n30_i2ms" tween="true" startValue="0.9,0.9"/>
+  </transition>
+</component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,110">
+  <displayList>
+    <image id="n1_vwqr" name="n1" src="rgx3y" fileName="Image/shangcheng_dikuang01.png" xy="0,0" size="480,110">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n3_vwqr" name="Item_Info" src="vwqrvy" fileName="Ui_CommonButton_Part/Ui_ItemInfo_Part.xml" pkg="5cinh7cr" xy="17,12" scale="0.9,0.9">
+      <relation target="n1_vwqr" sidePair="left-left,middle-middle"/>
+    </component>
+    <image id="n4_vwqr" name="n4" src="i5g71h" fileName="Image/beibao_dikuang02.png" xy="125,15" size="224,42" group="n8_vwqr">
+      <relation target="n1_vwqr" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n5_vwqr" name="Title_Name" xy="148,15" size="196,39" group="n8_vwqr" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" text="这个装备很垃圾"/>
+    <group id="n8_vwqr" name="Comt_ZbInFo" xy="125,15" size="224,42" advanced="true"/>
+    <image id="n9_n4so" name="n9" src="rgx3z" fileName="Image/shangcheng_huobikuang01.png" xy="277,61" size="170,40" group="n12_n4so">
+      <relation target="n1_vwqr" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n15_bbmu" name="Lab_JiaGe" src="bbmu120" fileName="Ui_CommonButton_Part/Ui_LabelHuoBi_Part.xml" pkg="5cinh7cr" xy="281,61" size="160,40" group="n12_n4so"/>
+    <group id="n12_n4so" name="Comt_Price" xy="277,61" size="170,40" advanced="true"/>
+  </displayList>
+</component>

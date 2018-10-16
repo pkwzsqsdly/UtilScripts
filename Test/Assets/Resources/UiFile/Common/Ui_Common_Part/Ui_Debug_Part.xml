@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,600">
+  <displayList>
+    <image id="n8_o677" name="n8" src="g4u2v0" fileName="Common_Image/kuangtu.png" xy="0,0" size="500,600"/>
+    <component id="n1_d8p4" name="button_strength" src="8zkt11m" fileName="Ui_Common_Part/Ui_Button09_Part.xml" xy="13,91" size="150,62"/>
+    <component id="n2_d8p4" name="button_gold" src="8zkt11m" fileName="Ui_Common_Part/Ui_Button09_Part.xml" xy="173,91" size="150,62"/>
+    <component id="n3_d8p4" name="button_diamond" src="8zkt11m" fileName="Ui_Common_Part/Ui_Button09_Part.xml" xy="333,91" size="150,62"/>
+    <image id="n7_o677" name="n7" src="v6062m" fileName="Common_Image/diban_06.png" xy="14,21" size="336,61"/>
+    <component id="n4_d8p4" name="button_Close" src="jvb3v5" fileName="Ui_CommonButton_Part/Ui_Colst_Part.xml" xy="463,-35"/>
+    <text id="n5_o677" name="input" xy="14,21" size="336,61" input="true" keyboardType="2" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" text="">
+      <relation target="n7_o677" sidePair="width-width,height-height"/>
+      <relation target="n7_o677" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n6_o677" name="buttonFishOk" src="bzuft6" fileName="Ui_CommonButton_Part/Ui_Ent01_Part.xml" xy="348,30"/>
+  </displayList>
+</component>

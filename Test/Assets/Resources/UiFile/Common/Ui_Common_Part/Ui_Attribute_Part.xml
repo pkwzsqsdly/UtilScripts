@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="250,40">
+  <displayList>
+    <text id="n0_qvy6" name="att_left" xy="0,0" size="250,40" fontSize="28" color="#ffffff" vAlign="middle" autoSize="none" text="稀有度加成">
+      <relation target="" sidePair="width-width%"/>
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </text>
+    <text id="n1_elne" name="att_add" xy="1,0" size="250,40" fontSize="24" color="#00ffff" align="right" vAlign="middle" ubb="true" autoSize="none" text="+22%">
+      <relation target="" sidePair="right-right,width-width"/>
+    </text>
+  </displayList>
+</component>

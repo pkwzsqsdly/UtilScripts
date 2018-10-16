@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="pg3v6eae" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="tzif0" name="Ui_FishBook_View.xml" path="/View/" exported="true"/>
+    <component id="tzif1" name="Ui_FishBookName_Part.xml" path="/Part/" exported="true"/>
+    <component id="tzif2" name="Ui_FishIconComp_Part.xml" path="/Part/" exported="true"/>
+    <component id="n4so3" name="Ui_FishBookInfo_Window.xml" path="/Window/" exported="true"/>
+    <image id="i5g74" name="tujian_ditu01.png" path="/Image/" exported="true"/>
+    <image id="i5g75" name="tujian_fengjing01.png" path="/Image/" exported="true"/>
+    <image id="i5g76" name="tujian_yeqian01.png" path="/Image/" exported="true"/>
+    <image id="i5g77" name="tujian_yeqian02.png" path="/Image/" exported="true"/>
+    <image id="i5g78" name="tujian_yu01.png" path="/Image/" exported="true"/>
+    <image id="i5g79" name="tujian_yu02.png" path="/Image/" exported="true"/>
+    <component id="i5g7a" name="Ui_ScenName_Part.xml" path="/Part/" exported="true"/>
+    <component id="u7gob" name="Ui_LabelNumber_Part.xml" path="/Part/" exported="true"/>
+  </resources>
+  <publish name="Ui_FishBook"/>
+</packageDescription>

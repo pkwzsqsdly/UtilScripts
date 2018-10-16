@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="385,300" extention="Button">
+  <displayList>
+    <loader id="n1_v1o7" name="icon" xy="166,70" size="50,30" align="center" vAlign="middle" autoSize="true">
+      <relation target="n2_v1o7" sidePair="center-center,top-top"/>
+    </loader>
+    <text id="n2_v1o7" name="title" xy="44,10" size="297,51" fontSize="40" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" text="21.神域天池">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.10"/>
+</component>

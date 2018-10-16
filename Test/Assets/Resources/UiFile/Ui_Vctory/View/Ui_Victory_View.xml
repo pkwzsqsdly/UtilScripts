@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" adaptationTest="FitSize">
+  <displayList>
+    <component id="n0_prkr" name="Exp" src="h2k1ws" fileName="Ui_Common_Part/Ui_BarExp_Part.xml" pkg="5cinh7cr" xy="56,67" size="607,20">
+      <relation target="" sidePair="top-top,width-width"/>
+    </component>
+    <component id="n1_prkr" name="Top" src="d4ccv9" fileName="Ui_Common_Part/Ui_TopMain_Part.xml" pkg="5cinh7cr" xy="0,0" size="720,60">
+      <relation target="" sidePair="top-top,width-width"/>
+    </component>
+    <loader id="n63_vwqo" name="ls+Icon_1" xy="3,163" pivot="0.5,0.5" size="140,145" group="n40_t5bc" align="center" vAlign="middle"/>
+    <loader id="n64_vwqo" name="ls+Icon_2" xy="1,337" pivot="0.5,0.5" size="140,145" group="n40_t5bc" align="center" vAlign="middle"/>
+    <loader id="n65_vwqo" name="ls+Icon_3" xy="1,511" pivot="0.5,0.5" size="140,145" group="n40_t5bc" align="center" vAlign="middle"/>
+    <loader id="n66_vwqo" name="ls+Icon_4" xy="1,685" pivot="0.5,0.5" size="140,145" group="n40_t5bc" align="center" vAlign="middle"/>
+    <loader id="n67_vwqo" name="ls+Icon_5" xy="1,859" pivot="0.5,0.5" size="140,145" group="n40_t5bc" align="center" vAlign="middle"/>
+    <group id="n40_t5bc" name="Comt_Laber" xy="1,163" size="142,841" advanced="true" collapsed="true" layout="vt" lineGap="29">
+      <relation target="" sidePair="left-left"/>
+    </group>
+    <component id="n62_8kxm" name="FishInfo" src="8kxms" fileName="Part/Ui_FishWinInfo_Part.xml" xy="380,265">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Scale" target="n63_vwqo" tween="true" startValue="10,10" endValue="1,1" duration="6" ease="Back.Out"/>
+    <item time="6" type="Scale" target="n64_vwqo" tween="true" startValue="10,10" endValue="1,1" duration="6" ease="Back.Out"/>
+    <item time="12" type="Scale" target="n65_vwqo" tween="true" startValue="10,10" endValue="1,1" duration="6" ease="Back.Out"/>
+    <item time="18" type="Scale" target="n66_vwqo" tween="true" startValue="10,10" endValue="1,1" duration="6" ease="Back.Out"/>
+    <item time="24" type="Scale" target="n67_vwqo" tween="true" startValue="10,10" endValue="1,1" duration="6" ease="Back.Out"/>
+  </transition>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="145,126" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="h2k1yi" fileName="Common_ButtonImage/zhu_shuizuxiang01.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2" name="title" xy="17,26" size="112,51" fontSize="30" color="#ff9900" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" singleLine="true" text="水族箱">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

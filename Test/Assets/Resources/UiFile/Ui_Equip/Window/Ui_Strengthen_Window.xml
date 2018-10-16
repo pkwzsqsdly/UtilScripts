@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="540,740">
+  <displayList>
+    <component id="n1_qvy6" name="Bg" src="i5g7104" fileName="Ui_Common_Part/Ui_CommonKuang_Part.xml" pkg="5cinh7cr" xy="0,0" size="540,740"/>
+    <component id="n6_qvy6" name="Equip_Icon" src="vwqrvy" fileName="Ui_CommonButton_Part/Ui_ItemInfo_Part.xml" pkg="5cinh7cr" xy="60,102" size="100,100"/>
+    <text id="n7_qvy6" name="Title_Name" xy="190,110" size="250,32" fontSize="24" color="#ffffff" autoSize="none" text="+5   腾虎鱼竿"/>
+    <text id="n8_qvy6" name="Title_QiangHualeve" xy="190,156" size="250,34" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" text="最大强化等级：15"/>
+    <text id="n9_qvy6" name="Title_GlodPrompt" xy="90,216" size="360,32" fontSize="22" color="#cc9933" align="center" vAlign="middle" autoSize="none" text="金币强化只提升伤害"/>
+    <image id="n13_qvy6" name="n13" src="nt6413y" fileName="Common_Image1/DiKuangBg.png" pkg="5cinh7cr" xy="40,351" size="460,260"/>
+    <text id="n10_qvy6" name="Title_Atk" xy="90,270" size="146,40" group="n14_qvy6" fontSize="30" color="#cc9933" align="right" vAlign="middle" autoSize="none" text="伤害：285875"/>
+    <text id="n11_qvy6" name="Title_AddAtkNum" xy="308,270" size="141,40" group="n14_qvy6" fontSize="30" color="#00ff00" vAlign="middle" autoSize="none" text="88888"/>
+    <image id="n12_qvy6" name="n12" src="nxtq10d" fileName="Common_Image/chancheng_jiantou01.png" pkg="5cinh7cr" xy="242,269" pivot="0.5,0.5" size="56,44" group="n14_qvy6" rotation="-180"/>
+    <group id="n14_qvy6" name="Comt_AddAtk" xy="90,269" size="359,44" advanced="true" collapsed="true"/>
+    <image id="n17_qvy6" name="n17" src="v6064c" fileName="Common_Image/xuanzehuang_01.png" pkg="5cinh7cr" xy="131,330" size="278,31"/>
+    <text id="n18_qvy6" name="Title_JewelPrompt" xy="132,332" size="275,27" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="钻石强化增加伤害与附加属性"/>
+    <text id="n30_qvy6" name="Title_GlodSuccess" xy="89,615" size="140,37" group="n28_qvy6" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="成功率：20%"/>
+    <text id="n31_qvy6" name="Title_JewelSuccess" xy="316,615" size="140,37" group="n28_qvy6" fontSize="20" color="#33ff66" align="center" vAlign="middle" autoSize="none" text="成功率：20%"/>
+    <component id="n39_t044" name="Button_OrdinaAdd" src="t04413b" fileName="Ui_CommonButton_Part/Ui_ButtonGreen_Part.xml" pkg="5cinh7cr" xy="74,660" group="n28_qvy6">
+      <Button icon="ui://5cinh7crh2k1za"/>
+    </component>
+    <component id="n40_t044" name="Button_SeniorAdd" src="8zkt11l" fileName="Ui_CommonButton_Part/Ui_ButtonOrange_Part.xml" pkg="5cinh7cr" xy="301,660" size="180,62" group="n28_qvy6">
+      <Button icon="ui://5cinh7crh2k1zb"/>
+    </component>
+    <group id="n28_qvy6" name="Comt_Button" xy="74,615" size="407,107" advanced="true"/>
+    <component id="n32_tl7o" name="ls+AttItem_1" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="50,365" size="440,40"/>
+    <component id="n33_tl7o" name="ls+AttItem_2" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="50,405" size="440,40"/>
+    <component id="n34_tl7o" name="ls+AttItem_3" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="50,445" size="440,40"/>
+    <component id="n35_tl7o" name="ls+AttItem_4" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="50,485" size="440,40"/>
+    <component id="n36_tl7o" name="ls+AttItem_5" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="50,525" size="440,40"/>
+    <component id="n37_tl7o" name="ls+AttItem_6" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="50,565" size="440,40"/>
+    <component id="n38_k3am" name="NdTitle" src="k3ami" fileName="Part/Ui_StrengthenTitle_Part.xml" xy="145,130" hideByEditor="true"/>
+  </displayList>
+</component>

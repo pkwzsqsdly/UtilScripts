@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6jhbffbi" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="9bv50" name="Ui_Loading_View.xml" path="/View/" exported="true"/>
+    <image id="9bv51" name="zhu_jingyan01.png" path="/Image/" exported="true" scale="9grid" scale9grid="11,8,22,14"/>
+    <image id="9bv52" name="zhu_jingyan02.png" path="/Image/" exported="true"/>
+    <component id="9bv53" name="Ui_LoadBar_Part.xml" path="/Part/" exported="true"/>
+    <image id="o2mn4" name="loading.png" path="/Image/" exported="true"/>
+  </resources>
+  <publish name="Ui_Loading"/>
+</packageDescription>

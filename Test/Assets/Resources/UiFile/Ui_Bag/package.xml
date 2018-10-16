@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="gjzxgu4g" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="tksi0" name="Ui_BagAndShop_View.xml" path="/View/" exported="true"/>
+    <component id="vwqr7" name="Ui_BigEquipInfo_Part.xml" path="/Part/" exported="true"/>
+    <component id="e05yk" name="Ui_BagBt_Part.xml" path="/Part/" exported="true"/>
+    <component id="n4som" name="Ui_ShopEquipInfo_Part.xml" path="/Part/" exported="true"/>
+    <image id="rgx3n" name="shangcheng_taitou01.png" path="/Image/" exported="true" scale9grid="119,29,79,43"/>
+    <image id="rgx3o" name="beibao_taitou01.png" path="/Image/" exported="true" scale9grid="286,27,125,43"/>
+    <image id="rgx3p" name="beibao_tiao01.png" path="/Image/" exported="true" scale9grid="7,3,14,6"/>
+    <image id="rgx3q" name="beibao_tiao02.png" path="/Image/" exported="true"/>
+    <image id="rgx3r" name="beibao_tiao03.png" path="/Image/" exported="true"/>
+    <image id="rgx3s" name="beibao_xianchang01.png" path="/Image/" exported="true"/>
+    <image id="rgx3t" name="beibao_xianlun01.png" path="/Image/" exported="true"/>
+    <image id="rgx3u" name="beibao_yuer01.png" path="/Image/" exported="true"/>
+    <image id="rgx3v" name="beibao_yugan01.png" path="/Image/" exported="true"/>
+    <image id="rgx3w" name="beibao_yuxian01.png" path="/Image/" exported="true"/>
+    <image id="rgx3x" name="beibao_zhanshi01.png" path="/Image/" exported="true"/>
+    <image id="rgx3y" name="shangcheng_dikuang01.png" path="/Image/" exported="true" scale="9grid" scale9grid="20,31,40,62"/>
+    <image id="rgx3z" name="shangcheng_huobikuang01.png" path="/Image/" exported="true"/>
+    <image id="rgx310" name="beibao_baoji01.png" path="/Image/" exported="true"/>
+    <image id="rgx311" name="beibao_baojishanghai01.png" path="/Image/" exported="true"/>
+    <image id="rgx312" name="beibao_chushou01.png" path="/Image/" exported="true"/>
+    <image id="rgx313" name="beibao_shangcheng01.png" path="/Image/" exported="true"/>
+    <image id="rgx314" name="beibao_shanghai01.png" path="/Image/" exported="true"/>
+    <image id="rgx315" name="beibao_dikuang03.png" path="/Image/" exported="true" scale="9grid" scale9grid="18,18,36,36"/>
+    <image id="rgx316" name="beibao_biankuang01.png" path="/Image/" exported="true" scale="9grid" scale9grid="15,15,30,30"/>
+    <image id="rgx317" name="beibao_dikuang04.png" path="/Image/" exported="true" scale="9grid" scale9grid="18,18,36,36"/>
+    <image id="rgx318" name="beibao_taitou02.png" path="/Image/" exported="true" scale="9grid" scale9grid="13,24,26,48"/>
+    <image id="rgx31a" name="beibao_anniu02.png" path="/Image/" exported="true"/>
+    <image id="rgx31b" name="beibao_anniu01.png" path="/Image/" exported="true"/>
+    <image id="iz1s1g" name="beibao_biankuang02.png" path="/Image/" exported="true" scale="9grid" scale9grid="15,11,30,22"/>
+    <image id="i5g71h" name="beibao_dikuang02.png" path="/Image/" exported="true" scale="9grid" scale9grid="11,11,14,22"/>
+    <component id="bbmu1i" name="Ui_EquipTypTag_Part.xml" path="/Part/" exported="true"/>
+    <component id="bbmu1k" name="Ui_BagOrShop_Part.xml" path="/Part/" exported="true"/>
+    <component id="huzf1l" name="Ui_BagAtt_Part.xml" path="/Part/" exported="true"/>
+    <component id="rf3o1m" name="Ui_EquipInfo_Part.xml" path="/Part/" exported="true"/>
+    <component id="rkpg1n" name="Ui_ImgBtn_Part.xml" path="/Part/" exported="true"/>
+  </resources>
+  <publish name="Ui_Bag"/>
+</packageDescription>

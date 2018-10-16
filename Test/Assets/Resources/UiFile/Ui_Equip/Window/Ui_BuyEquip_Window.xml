@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,620">
+  <displayList>
+    <component id="n3_qb9c" name="Bg" src="i5g7104" fileName="Ui_Common_Part/Ui_CommonKuang_Part.xml" pkg="5cinh7cr" xy="0,0" size="500,620">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n5_qb9c" name="Equip_icon" src="vwqrvy" fileName="Ui_CommonButton_Part/Ui_ItemInfo_Part.xml" pkg="5cinh7cr" xy="205,130" size="90,90"/>
+    <image id="n15_qb9c" name="n1" src="nt6413y" fileName="Common_Image1/DiKuangBg.png" pkg="5cinh7cr" xy="25,230" size="450,282"/>
+    <text id="n6_qb9c" name="Title_EquipName" xy="140,82" size="219,40" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="藤虎垃圾鱼竿"/>
+    <component id="n16_qb9c" name="Button_JiaGe" src="nt64144" fileName="Ui_CommonButton_Part/Ui_ButtonCommon2_Part.xml" pkg="5cinh7cr" xy="170,535" size="160,55" aspect="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n25_tl7o" name="ls+AttItem_1" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="50,249" size="400,40"/>
+    <component id="n26_tl7o" name="ls+AttItem_2" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="50,289" size="400,40"/>
+    <component id="n30_tl7o" name="ls+AttItem_3" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="50,329" size="400,40"/>
+    <component id="n27_tl7o" name="ls+AttItem_4" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="50,369" size="400,40"/>
+    <component id="n29_tl7o" name="ls+AttItem_5" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="50,409" size="400,40"/>
+    <component id="n28_tl7o" name="ls+AttItem_6" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="50,449" size="400,40"/>
+  </displayList>
+</component>

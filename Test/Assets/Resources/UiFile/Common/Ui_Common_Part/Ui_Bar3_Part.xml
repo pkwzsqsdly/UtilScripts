@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="552,20" extention="ProgressBar">
+  <displayList>
+    <image id="n1" name="n1" src="h2k1wr" fileName="Common_Bar/zhu_jingyan01.png" xy="0,0" size="552,20">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="bar" src="h2k1wp" fileName="Common_Bar/zhu_jingyan02.png" xy="2,3" size="547,14">
+      <relation target="n1" sidePair="height-height"/>
+    </image>
+    <image id="n3_h2k1" name="n3" src="h2k1wq" fileName="Common_Bar/zhu_jingyan03.png" xy="542,-10" size="11,40">
+      <relation target="n2" sidePair="left-left,right-right"/>
+    </image>
+  </displayList>
+  <ProgressBar titleType="valueAndmax"/>
+</component>

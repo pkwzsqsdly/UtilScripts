@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,450">
+  <displayList>
+    <image id="n25_qioy" name="Comt_AquFishInfo" src="rgx3k" fileName="Image/shuizu_yuxianze02.png" xy="0,0" size="400,450"/>
+    <component id="n20_qioy" name="Bar_AddPro" src="bbmu11t" fileName="Ui_Common_Part/Ui_Bar3_Part.xml" pkg="5cinh7cr" xy="16,61" size="374,20">
+      <ProgressBar value="11" max="100"/>
+    </component>
+    <component id="n29_bbmu" name="lab_LenInfo" src="bbmu120" fileName="Ui_CommonButton_Part/Ui_LabelHuoBi_Part.xml" pkg="5cinh7cr" xy="241,91" size="143,41"/>
+    <component id="n26_qioy" name="button_Sell" src="bzuft6" fileName="Ui_CommonButton_Part/Ui_Ent01_Part.xml" pkg="5cinh7cr" xy="47,379"/>
+    <component id="n27_qioy" name="button_Mov" src="bzuft6" fileName="Ui_CommonButton_Part/Ui_Ent01_Part.xml" pkg="5cinh7cr" xy="216,379"/>
+    <component id="n31_g24y" name="att_price" src="g24yq" fileName="Part/Ui_FishInfoAtt_Part.xml" xy="33,136" size="340,50"/>
+    <component id="n32_g24y" name="att_length" src="g24yq" fileName="Part/Ui_FishInfoAtt_Part.xml" xy="33,191" size="340,50"/>
+    <component id="n33_g24y" name="att_history" src="g24yq" fileName="Part/Ui_FishInfoAtt_Part.xml" xy="33,246" size="340,50"/>
+    <component id="n30_g24y" name="att_scene" src="g24yq" fileName="Part/Ui_FishInfoAtt_Part.xml" xy="33,301" size="340,50"/>
+    <component id="n34_x3ff" name="button_Close" src="jvb3v5" fileName="Ui_CommonButton_Part/Ui_Colst_Part.xml" pkg="5cinh7cr" xy="362,-8" size="46,44" aspect="true"/>
+    <text id="n35_x3ff" name="lbTime" xy="24,17" size="352,32" fontSize="20" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="shengyushikoan"/>
+  </displayList>
+</component>

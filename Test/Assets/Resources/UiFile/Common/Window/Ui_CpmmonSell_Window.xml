@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="420,530">
+  <displayList>
+    <component id="n2_qioy" name="BgTask" src="i5g7104" fileName="Ui_Common_Part/Ui_CommonKuang_Part.xml" xy="0,0" size="420,530"/>
+    <text id="n10_qioy" name="Title_Info" xy="21,122" size="382,154" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="是否出售所有鱼"/>
+    <text id="n5_qioy" name="Title_reward" xy="35,302" size="181,25" fontSize="20" color="#999999" autoSize="none" text="可获得奖励："/>
+    <component id="n13_qioy" name="button_Enter" src="8zkt11i" fileName="Ui_Common_Part/Ui_Button05_Part.xml" xy="113,437" size="192,62"/>
+    <component id="n15_bbmu" name="Lab_Glod" src="bbmu120" fileName="Ui_CommonButton_Part/Ui_LabelHuoBi_Part.xml" xy="52,332">
+      <Label icon="ui://5cinh7crh2k1za"/>
+    </component>
+    <component id="n16_bbmu" name="Lab_Jewel" src="bbmu120" fileName="Ui_CommonButton_Part/Ui_LabelHuoBi_Part.xml" xy="52,378">
+      <Label icon="ui://5cinh7crh2k1zb"/>
+    </component>
+  </displayList>
+</component>

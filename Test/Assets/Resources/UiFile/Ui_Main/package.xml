@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="i7l7fdun" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="d4cc0" name="Ui_Main_View.xml" path="/View/" exported="true"/>
+    <image id="d4cc1" name="touxiangdikuang.png" path="/Image/" exported="true"/>
+    <component id="d4cc2" name="Ui_BarLevel_Part.xml" path="/Part/" exported="true"/>
+    <image id="h2k13" name="zhu_xiadi01.png" path="/Image/" exported="true"/>
+    <image id="h2k14" name="zhu_zhuozi01.png" path="/Image/" exported="true"/>
+    <image id="h2k15" name="zhu_chuan01.png" path="/Image/" exported="true"/>
+    <image id="h2k16" name="zhu_diaoyu01.png" path="/Image/" exported="true"/>
+    <component id="unph7" name="Ui_Start_Part.xml" path="/Part/" exported="true"/>
+  </resources>
+  <publish name="Ui_Main"/>
+</packageDescription>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" adaptationTest="FitSize">
+  <displayList>
+    <component id="n1_qioy" name="Top" src="i2msu5" fileName="Ui_Common_Part/Ui_Top_Part.xml" pkg="5cinh7cr" xy="0,0" size="720,60">
+      <relation target="" sidePair="top-top,width-width"/>
+    </component>
+    <component id="n28_qioy" name="button_Sell" src="bzuft6" fileName="Ui_CommonButton_Part/Ui_Ent01_Part.xml" pkg="5cinh7cr" xy="554,1066" group="n33_qioy"/>
+    <component id="n29_qioy" name="button_AllSell" src="bzuft6" fileName="Ui_CommonButton_Part/Ui_Ent01_Part.xml" pkg="5cinh7cr" xy="553,1132" group="n33_qioy"/>
+    <group id="n33_qioy" name="Comt_SellBt" xy="553,1066" size="158,118" advanced="true" collapsed="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </group>
+    <component id="n40_mmyj" name="AquaLeft" src="mmyjt" fileName="Part/Ui_AquaLeft_Part.xml" xy="0,345">
+      <relation target="" sidePair="left-left,middle-middle"/>
+    </component>
+    <component id="n41_mmyj" name="AquaRight" src="mmyju" fileName="Part/Ui_AquaRight_Part.xml" xy="530,345">
+      <relation target="" sidePair="right-right,middle-middle"/>
+    </component>
+    <component id="n42_mmyj" name="buttonHide" src="mmyjw" fileName="Part/Ui_ShowHideButton_Part.xml" xy="7,1065">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n43_x3ff" name="FishInfo" src="qioy7" fileName="Part/Ui_AquaFishInfo_Part.xml" xy="-420,390"/>
+  </displayList>
+  <transition name="FishInfoShow">
+    <item time="0" type="XY" target="n43_x3ff" tween="true" startValue="-420,-" endValue="60,-" duration="8" ease="Back.Out"/>
+  </transition>
+</component>

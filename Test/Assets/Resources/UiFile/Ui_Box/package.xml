@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="iy0cwvkq" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ikc80" name="Ui_Box_View.xml" path="/View/" exported="true"/>
+    <component id="wuf71" name="Ui_EquipIcon_Part.xml" path="/Part/" exported="true"/>
+    <component id="wuf72" name="Ui_OneBox_Window.xml" path="/Window/" exported="true"/>
+    <component id="wuf74" name="Ui_TenBox_Window.xml" path="/Window/" exported="true"/>
+    <image id="i5g75" name="choujiang_huangjin02.png" path="/Image/" exported="true"/>
+    <image id="i5g76" name="choujiang_baiyin01.png" path="/Image/" exported="true"/>
+    <image id="i5g77" name="choujiang_baiyin02.png" path="/Image/" exported="true"/>
+    <image id="i5g78" name="choujiang_beijing01.png" path="/Image/" exported="true"/>
+    <image id="i5g79" name="choujiang_beijing02.png" path="/Image/" exported="true"/>
+    <image id="i5g7a" name="choujiang_beijing03.png" path="/Image/" exported="true" scale="9grid" scale9grid="3,61,6,122"/>
+    <image id="i5g7b" name="choujiang_fanhui01.png" path="/Image/" exported="true"/>
+    <image id="i5g7c" name="choujiang_goumai01.png" path="/Image/" exported="true"/>
+    <image id="i5g7d" name="choujiang_goumaidiban01.png" path="/Image/" exported="true"/>
+    <image id="i5g7e" name="choujiang_huangjin01.png" path="/Image/" exported="true"/>
+    <component id="bbmuf" name="Ui_BoxButton_Part.xml" path="/Part/" exported="true"/>
+    <component id="elneg" name="Ui_BoxIcon_Part.xml" path="/Part/" exported="true"/>
+    <image id="nt64h" name="baiyin_02_01.png" path="/Image/"/>
+    <image id="nt64i" name="baiyin_02_03.png" path="/Image/"/>
+    <image id="nt64j" name="baiyin_02_02.png" path="/Image/"/>
+    <image id="nt64k" name="baiyin_01_02.png" path="/Image/"/>
+    <image id="nt64l" name="baiyin_01_03.png" path="/Image/"/>
+    <image id="nt64m" name="baiyin_01_01.png" path="/Image/"/>
+  </resources>
+  <publish name="Ui_Box"/>
+</packageDescription>

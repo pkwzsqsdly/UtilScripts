@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" scroll="both" adaptationTest="FitSize">
+  <displayList>
+    <component id="n115_v04n" name="SceneContent" src="v04n13" xy="0,0" size="720,1280">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n112_t6nc" name="Top" src="i2msu5" pkg="5cinh7cr" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n114_bbmu" name="Level_Bar" src="h2k1ws" pkg="5cinh7cr" xy="84,74">
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+  </displayList>
+</component>

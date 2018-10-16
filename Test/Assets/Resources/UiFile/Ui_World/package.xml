@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="w8t9dpdi" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="bpfl0" name="10aiqinghai_01.png" path="/Image/" exported="true"/>
+    <image id="bpfl1" name="baimudasanjiao_01.png" path="/Image/" exported="true"/>
+    <image id="bpfl2" name="balidao_01.png" path="/Image/" exported="true"/>
+    <image id="bpfl3" name="beijizhiguang_01.png" path="/Image/" exported="true"/>
+    <image id="bpfl4" name="bingxueqiyuan_01.png" path="/Image/" exported="true"/>
+    <image id="bpfl5" name="bingxuezhidi_01.png" path="/Image/" exported="true"/>
+    <image id="bpfl6" name="2changjiang_01.png" path="/Image/" exported="true"/>
+    <image id="bpfl7" name="3dalian_01.png" path="/Image/" exported="true"/>
+    <image id="bpfl8" name="11dian_01.png" path="/Image/" exported="true"/>
+    <image id="bpfl9" name="8dibai_01.png" path="/Image/" exported="true"/>
+    <image id="bpflb" name="diyuyanjiang_01.png" path="/Image/" exported="true"/>
+    <image id="bpflc" name="5huanghe_01.png" path="/Image/" exported="true"/>
+    <image id="bpfld" name="6lijiang_01.png" path="/Image/" exported="true"/>
+    <image id="bpfle" name="liluohe_01.png" path="/Image/" exported="true"/>
+    <image id="bpflf" name="maerdaifu_01.png" path="/Image/" exported="true"/>
+    <image id="bpflg" name="maliyana_01.png" path="/Image/" exported="true"/>
+    <image id="bpflh" name="7nanhai_01.png" path="/Image/" exported="true"/>
+    <image id="bpfli" name="4panyanghu_01.png" path="/Image/" exported="true"/>
+    <image id="bpflj" name="1sanya_01.png" path="/Image/" exported="true"/>
+    <image id="bpflk" name="sharenhu_01.png" path="/Image/" exported="true"/>
+    <image id="bpfll" name="shenyutiandi_01.png" path="/Image/" exported="true"/>
+    <image id="bpflm" name="shibilierhu_01.png" path="/Image/" exported="true"/>
+    <image id="bpfln" name="shiwaitaoyuan_01.png" path="/Image/" exported="true"/>
+    <image id="bpflo" name="sishendao_01.png" path="/Image/" exported="true"/>
+    <image id="bpflp" name="tiankongzhicheng_01.png" path="/Image/" exported="true"/>
+    <image id="bpflq" name="wangqingdao_01.png" path="/Image/" exported="true"/>
+    <image id="bpflr" name="weiduoliya_01.png" path="/Image/" exported="true"/>
+    <image id="bpfls" name="xiangzi_01.png" path="/Image/" exported="true"/>
+    <image id="bpflt" name="xiangzi_02.png" path="/Image/" exported="true"/>
+    <image id="bpflu" name="xiaweiyi_01.png" path="/Image/" exported="true"/>
+    <image id="bpflv" name="yamaxunhe_01.png" path="/Image/" exported="true"/>
+    <component id="t6ncz" name="Ui_World_View.xml" path="/View/" exported="true"/>
+    <component id="t6nc11" name="Ui_GuanKa_Window.xml" path="/Window/" exported="true"/>
+    <component id="t5bc12" name="Ui_LockMap_Window.xml" path="/Window/" exported="true"/>
+    <component id="v04n13" name="Ui_SceneContent_Part.xml" path="/Part/" exported="true"/>
+    <component id="v1o714" name="Ui_SceneInfo_Part.xml" path="/Part/" exported="true"/>
+    <component id="g24y15" name="Ui_RewardBtnBox_Part.xml" path="/Part/" exported="true"/>
+  </resources>
+  <publish name="Ui_World"/>
+</packageDescription>

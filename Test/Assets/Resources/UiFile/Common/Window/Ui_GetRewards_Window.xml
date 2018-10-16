@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="450,400" adaptationTest="FitSize">
+  <displayList>
+    <component id="n0_g24y" name="Bg" src="i5g7104" fileName="Ui_Common_Part/Ui_CommonKuang_Part.xml" xy="0,0" size="450,400"/>
+    <component id="n6_g24y" name="button_ok" src="8zkt11i" fileName="Ui_Common_Part/Ui_Button05_Part.xml" xy="145,320" size="160,55" aspect="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button titleColor="#ffffff"/>
+    </component>
+    <list id="n7_g3og" name="List_Rewards" xy="25,83" size="400,222" layout="flow_hz" overflow="scroll" scrollBarFlags="256" defaultItem="ui://5cinh7crnxtq10e" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

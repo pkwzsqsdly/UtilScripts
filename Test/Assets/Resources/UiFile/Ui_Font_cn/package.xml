@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6fbjpm74" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="8zkt0" name="shengli_chuanqi01.png" path="/" exported="true"/>
+    <image id="8zkt1" name="shengli_daxing01.png" path="/" exported="true"/>
+    <image id="8zkt2" name="shengli_hiqian01.png" path="/" exported="true"/>
+    <image id="8zkt3" name="shengli_wangzhe01.png" path="/" exported="true"/>
+    <image id="8zkt4" name="shengli_xiaoxing01.png" path="/" exported="true"/>
+    <image id="8zkt5" name="shengli_zhongxing01.png" path="/" exported="true"/>
+    <image id="b9sn6" name="qianghuachenggong_01.png" path="/" exported="true"/>
+    <image id="b9sn7" name="qianghuashibai_01.png" path="/" exported="true"/>
+    <image id="o2mn8" name="boss_01.png" path="/" exported="true"/>
+    <image id="o2mn9" name="zhongyu_01.png" path="/" exported="true"/>
+  </resources>
+  <publish name="Ui_Font_cn"/>
+</packageDescription>

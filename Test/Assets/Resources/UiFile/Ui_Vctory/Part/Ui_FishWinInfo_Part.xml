@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="340,750">
+  <displayList>
+    <image id="n0_8kxm" name="n0" src="prkr3" fileName="Image/shengli_jiemian01.png" xy="6,0" size="334,208" group="n7_8kxm"/>
+    <text id="n1_8kxm" name="Title_Name" xy="68,79" size="256,39" group="n7_8kxm" rotation="-13" fontSize="30" align="center" vAlign="middle" autoSize="none" bold="true" text="尼玛大蛇鱼"/>
+    <image id="n2_8kxm" name="ls+Start_1" src="v6063n" fileName="Common_Image/tujian_xing.png" pkg="5cinh7cr" xy="59,128" size="39,36" group="n7_8kxm" aspect="true" rotation="-14"/>
+    <image id="n3_8kxm" name="ls+Start_2" src="v6063n" fileName="Common_Image/tujian_xing.png" pkg="5cinh7cr" xy="108,117" size="39,36" group="n7_8kxm" aspect="true" rotation="-14"/>
+    <image id="n4_8kxm" name="ls+Start_3" src="v6063n" fileName="Common_Image/tujian_xing.png" pkg="5cinh7cr" xy="158,105" size="39,36" group="n7_8kxm" aspect="true" rotation="-14"/>
+    <image id="n5_8kxm" name="ls+Start_4" src="v6063n" fileName="Common_Image/tujian_xing.png" pkg="5cinh7cr" xy="209,94" size="39,36" group="n7_8kxm" aspect="true" rotation="-14"/>
+    <image id="n6_8kxm" name="ls+Start_5" src="v6063n" fileName="Common_Image/tujian_xing.png" pkg="5cinh7cr" xy="259,81" size="39,36" group="n7_8kxm" aspect="true" rotation="-14"/>
+    <loader id="n26_qcp2" name="ImageTitle" xy="9,35" size="109,50" group="n7_8kxm" rotation="-13" align="center" vAlign="middle"/>
+    <group id="n7_8kxm" name="Comt_FishName" xy="6,0" size="334,208" advanced="true" collapsed="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <image id="n8_8kxm" name="n8" src="prkr4" fileName="Image/shengli_jiemian02.png" xy="70,165" size="271,156" group="n10_8kxm"/>
+    <text id="n9_8kxm" name="Title_Lenght" xy="164,212" size="154,45" group="n10_8kxm" rotation="-12" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" text="25.25cm"/>
+    <text id="n27_kyvc" name="Title_LenghtTxt" xy="79,232" size="84,42" group="n10_8kxm" rotation="-12" fontSize="30" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#ffcc66" text="长度"/>
+    <group id="n10_8kxm" name="Comt_FishLength" xy="70,165" size="271,156" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <image id="n11_8kxm" name="n11" src="prkr5" fileName="Image/shengli_jiemian03.png" xy="110,300" group="n14_8kxm"/>
+    <text id="n12_8kxm" name="Title_Maxlength" xy="175,341" size="159,42" group="n14_8kxm" rotation="-12" fontSize="30" align="center" vAlign="middle" autoSize="none" bold="true" text="25.25cm"/>
+    <text id="n13_8kxm" name="Title_MaxbEest" xy="112,353" size="56,57" group="n14_8kxm" rotation="-12" fontSize="20" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#ffffff" text="历史最佳"/>
+    <group id="n14_8kxm" name="Comt_Best" xy="110,300" size="231,123" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <image id="n15_8kxm" name="n15" src="prkr6" fileName="Image/shengli_jiemian04.png" xy="95,411" size="243,111" group="n18_8kxm"/>
+    <text id="n16_8kxm" name="Title_CultureTxt" xy="102,455" size="71,56" group="n18_8kxm" rotation="-5" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" text="养成价值"/>
+    <component id="n17_8kxm" name="Lab_GroowUp" src="kyvc13p" fileName="Ui_CommonButton_Part/Ui_LabelHuoBiGoFish_Part.xml" pkg="5cinh7cr" xy="167,443" size="169,54" group="n18_8kxm" rotation="-4.3">
+      <Label icon="ui://5cinh7crh2k1za"/>
+    </component>
+    <group id="n18_8kxm" name="Comt_CultureMax" xy="95,411" size="244,111" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <image id="n19_8kxm" name="n19" src="prkr7" fileName="Image/shengli_jiemian05.png" xy="24,544" group="n22_8kxm"/>
+    <component id="n20_8kxm" name="Lab_Exp" src="kyvc13p" fileName="Ui_CommonButton_Part/Ui_LabelHuoBiGoFish_Part.xml" pkg="5cinh7cr" xy="30,571" size="170,51" group="n22_8kxm">
+      <Label titleColor="#ff9933" icon="ui://5cinh7cr8zkt10u"/>
+    </component>
+    <component id="n21_8kxm" name="Lab_Glod" src="kyvc13p" fileName="Ui_CommonButton_Part/Ui_LabelHuoBiGoFish_Part.xml" pkg="5cinh7cr" xy="162,571" size="163,51" group="n22_8kxm">
+      <Label icon="ui://5cinh7crh2k1za"/>
+    </component>
+    <group id="n22_8kxm" name="Comt_Reward" xy="24,544" size="315,93" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <component id="n23_8kxm" name="Button_Sell" src="nt64146" fileName="Ui_CommonButton_Part/Ui_ButtonCommon4_Part.xml" pkg="5cinh7cr" xy="20,670" size="152,66" group="n25_8kxm"/>
+    <component id="n24_8kxm" name="Button_Culture" src="nt64145" fileName="Ui_CommonButton_Part/Ui_ButtonCommon3_Part.xml" pkg="5cinh7cr" xy="170,670" size="152,66" group="n25_8kxm"/>
+    <group id="n25_8kxm" name="Comt_Button" xy="20,670" size="302,66" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="XY" target="n18_8kxm" value="350,-"/>
+    <item time="0" type="XY" target="n7_8kxm" tween="true" startValue="350,-" endValue="10,-" duration="6" ease="Sine.Out"/>
+    <item time="0" type="XY" target="n14_8kxm" value="350,-"/>
+    <item time="0" type="XY" target="n22_8kxm" value="350,-"/>
+    <item time="0" type="XY" target="n10_8kxm" value="350,-"/>
+    <item time="0" type="XY" target="n25_8kxm" value="350,-"/>
+    <item time="3" type="XY" target="n10_8kxm" tween="true" startValue="350,-" endValue="70,-" duration="6" ease="Sine.Out"/>
+    <item time="6" type="XY" target="n14_8kxm" tween="true" startValue="350,-" endValue="110,-" duration="6" ease="Sine.Out"/>
+    <item time="9" type="XY" target="n18_8kxm" tween="true" startValue="350,-" endValue="142,-" duration="6" ease="Sine.Out"/>
+    <item time="12" type="XY" target="n22_8kxm" tween="true" startValue="350,-" endValue="25,-" duration="6" ease="Sine.Out"/>
+    <item time="15" type="XY" target="n25_8kxm" tween="true" startValue="350,-" endValue="8,-" duration="6" ease="Sine.Out"/>
+  </transition>
+</component>

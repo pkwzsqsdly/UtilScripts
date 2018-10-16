@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280" adaptationTest="FitSize">
+  <displayList>
+    <image id="n0_nxtq" name="n0" src="nxtq2" fileName="Image/shang_ditu01.png" xy="0,0" size="720,1280">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_nxtq" name="n1" src="nxtq4" fileName="Image/shang_taiou01.png" xy="47,124">
+      <relation target="" sidePair="center-center,top-top"/>
+    </image>
+    <text id="n11_bbmu" name="Title_ZuanShiShop" xy="197,168" size="339,81" fontSize="66" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" text="钻石商店">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <list id="n13_u7go" name="ShopList" xy="17,346" size="687,908" overflow="scroll" lineGap="30" defaultItem="ui://p0aizrn7nxtq6" align="center" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n6_nxtq" name="Img_YinChang" src="nxtq3" fileName="Image/shang_huadong01.png" xy="311,1165">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <component id="n2_nxtq" name="Top" src="i2msu5" fileName="Ui_Common_Part/Ui_Top_Part.xml" pkg="5cinh7cr" xy="0,0" size="720,70">
+      <relation target="" sidePair="width-width"/>
+    </component>
+  </displayList>
+</component>

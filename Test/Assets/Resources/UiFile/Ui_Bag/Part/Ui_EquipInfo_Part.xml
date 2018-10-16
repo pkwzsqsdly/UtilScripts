@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="580,724" adaptationTest="FitSize">
+  <displayList>
+    <image id="n25_rf3o" name="ShopBg" src="rgx3y" fileName="Image/shangcheng_dikuang01.png" xy="0,0" size="580,724">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n26_rf3o" name="BagBg" src="rgx3zj" fileName="Common_Image1/beibao_dikuang01.png" pkg="5cinh7cr" xy="0,0" size="580,724">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n27_rf3o" name="n27" src="h2k1yw" fileName="Common_Image1/chancheng_kuang02.png" pkg="5cinh7cr" xy="30,76" size="520,534">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n28_rf3o" name="Title_Name" xy="31,14" size="472,59" fontSize="36" color="#0033cc" vAlign="middle" autoSize="none" bold="true" text="+5 神秘卷线轮">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n32_rf3o" name="Title_ATK" xy="160,88" size="139,29" fontSize="24" color="#ff9933" vAlign="middle" bold="true" text="伤害：22511">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <text id="n33_rf3o" name="Title_NaiJiu" xy="160,122" size="276,32" fontSize="24" color="#ff9933" vAlign="middle" autoSize="none" text="耐久：20/30">
+      <relation target="n32_rf3o" sidePair="left-left,bottom-top"/>
+    </text>
+    <text id="n52_rkpg" name="Title_QiTa" xy="160,156" size="277,32" fontSize="24" color="#ff9933" vAlign="middle" autoSize="none" text="qita：225012">
+      <relation target="n33_rf3o" sidePair="left-left,bottom-top"/>
+    </text>
+    <text id="n53_ox4a" name="lbDesc" xy="55,238" size="470,356" fontSize="24" color="#ffffff" autoSize="none" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n30_rf3o" name="ItemIcon" src="vwqrvy" fileName="Ui_CommonButton_Part/Ui_ItemInfo_Part.xml" pkg="5cinh7cr" xy="40,90" size="113,111">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <graph id="n37_rf3o" name="n37" xy="45,235" size="490,364" type="rect" lineSize="0" fillColor="#12ffffff" corner="5">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n38_rf3o" name="Button_Reset" src="nt6414a" fileName="Ui_CommonButton_Part/Ui_ButtonCommon7_Part.xml" pkg="5cinh7cr" xy="446,191" size="100,38" aspect="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n40_rf3o" name="Button_QiangHua" src="8zkt11i" fileName="Ui_Common_Part/Ui_Button05_Part.xml" pkg="5cinh7cr" xy="100,630" group="n42_rf3o"/>
+    <component id="n41_rf3o" name="Button_ChuangDai" src="nt64147" fileName="Ui_CommonButton_Part/Ui_ButtonCommon5_Part.xml" pkg="5cinh7cr" xy="300,630" size="180,62" group="n42_rf3o"/>
+    <group id="n42_rf3o" name="Comt_But" xy="100,630" size="380,62" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <component id="n50_rkpg" name="Button_Fix" src="rkpg1n" fileName="Part/Ui_ImgBtn_Part.xml" xy="160,189" group="n45_rf3o">
+      <Button icon="ui://5cinh7crnxtq10h"/>
+    </component>
+    <component id="n51_rkpg" name="Button_Sell" src="rkpg1n" fileName="Part/Ui_ImgBtn_Part.xml" xy="219,189" group="n45_rf3o">
+      <Button icon="ui://5cinh7crnxtq10g"/>
+    </component>
+    <group id="n45_rf3o" name="Comt_WeiXiu" xy="160,189" size="103,39" advanced="true" collapsed="true">
+      <relation target="n33_rf3o" sidePair="left-left,bottom-top"/>
+    </group>
+    <component id="n46_rf3o" name="Button_ChuanChen" src="nt6414a" fileName="Ui_CommonButton_Part/Ui_ButtonCommon7_Part.xml" pkg="5cinh7cr" xy="445,79" size="100,38" group="n48_rf3o"/>
+    <component id="n47_rf3o" name="Button_GaiZao" src="nt6414a" fileName="Ui_CommonButton_Part/Ui_ButtonCommon7_Part.xml" pkg="5cinh7cr" xy="445,118" size="100,38" group="n48_rf3o"/>
+    <group id="n48_rf3o" name="Comt_GaiZhao" xy="445,79" size="100,77" advanced="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </group>
+    <component id="n49_mhrq" name="Button_Close" src="mhrq129" fileName="Ui_CommonButton_Part/Ui_ButtonCircle_Part.xml" pkg="5cinh7cr" xy="510,6" size="62,62" aspect="true">
+      <relation target="" sidePair="top-top,right-right"/>
+    </component>
+    <component id="n57_ox4a" name="Button_Buy" src="nt64147" fileName="Ui_CommonButton_Part/Ui_ButtonCommon5_Part.xml" pkg="5cinh7cr" xy="200,627" size="180,62">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="100"/>
+    </component>
+    <text id="n31_rf3o" name="Comt_DuiBiAtk" xy="356,87" size="57,32" group="n59_ox4a" fontSize="26" color="#ffffff" vAlign="middle" text="9999">
+      <relation target="n32_rf3o" sidePair="left-right,middle-middle"/>
+    </text>
+    <image id="n34_rf3o" name="JianTouDown" src="nxtq10d" fileName="Common_Image/chancheng_jiantou01.png" pkg="5cinh7cr" xy="326,121" size="35,19" group="n59_ox4a" aspect="true" rotation="-90" color="#ff0000">
+      <relation target="n31_rf3o" sidePair="right-left,middle-middle"/>
+    </image>
+    <image id="n35_rf3o" name="JianTouUp" src="nxtq10d" fileName="Common_Image/chancheng_jiantou01.png" pkg="5cinh7cr" xy="351,86" size="35,25" group="n59_ox4a" rotation="90" color="#00ff00">
+      <relation target="n31_rf3o" sidePair="right-left,middle-middle"/>
+    </image>
+    <group id="n59_ox4a" name="Comt_AttAdd" xy="326,86" size="102,54" advanced="true" collapsed="true"/>
+    <component id="n60_t044" name="ls+AttItem_1" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="65,243" size="450,40">
+      <relation target="n37_rf3o" sidePair="center-center,top-top"/>
+    </component>
+    <component id="n61_t044" name="ls+AttItem_2" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="65,283" size="450,40">
+      <relation target="n60_t044" sidePair="center-center,top-bottom"/>
+    </component>
+    <component id="n62_t044" name="ls+AttItem_3" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="65,323" size="450,40">
+      <relation target="n61_t044" sidePair="center-center,top-bottom"/>
+    </component>
+    <component id="n63_t044" name="ls+AttItem_4" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="65,363" size="450,40">
+      <relation target="n62_t044" sidePair="center-center,top-bottom"/>
+    </component>
+    <component id="n64_t044" name="ls+AttItem_5" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="65,403" size="450,40">
+      <relation target="n63_t044" sidePair="center-center,top-bottom"/>
+    </component>
+    <component id="n65_t044" name="ls+AttItem_6" src="i5g7103" fileName="Ui_Common_Part/Ui_Attribute_Part.xml" pkg="5cinh7cr" xy="65,443" size="450,40">
+      <relation target="n64_t044" sidePair="center-center,top-bottom"/>
+    </component>
+  </displayList>
+</component>

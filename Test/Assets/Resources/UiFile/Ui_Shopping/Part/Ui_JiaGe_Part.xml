@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="669,201" adaptationTest="FitSize">
+  <displayList>
+    <image id="n0_nxtq" name="n0" src="nxtq1" fileName="Image/shang_biaoqian02.png" xy="0,0" size="669,201">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n10_u7go" name="n10" src="v60643" fileName="Common_Image/xiaokuang_03.png" pkg="5cinh7cr" xy="63,59" size="269,61" alpha="0.3">
+      <relation target="n9_u7go" sidePair="left-left,bottom-bottom"/>
+    </image>
+    <loader id="n9_u7go" name="icon" xy="24,27" size="90,90" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="left-left,top-middle"/>
+    </loader>
+    <text id="n2_nxtq" name="Title_Jewel" xy="135,64" size="192,51" fontSize="45" align="center" vAlign="middle" autoSize="none" bold="true" text="6840">
+      <relation target="n9_u7go" sidePair="right-left,bottom-bottom"/>
+    </text>
+    <text id="n3_nxtq" name="Title_ZenSon" xy="52,119" size="323,51" fontSize="26" color="#ffff99" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#666666" text="额外赠送5200钻石">
+      <relation target="n2_nxtq" sidePair="bottom-top,left-left"/>
+    </text>
+    <component id="n5_nxtq" name="Button_Buy" src="nt64147" fileName="Ui_CommonButton_Part/Ui_ButtonCommon5_Part.xml" pkg="5cinh7cr" xy="450,87" size="154,61" aspect="true">
+      <relation target="n0_nxtq" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <image id="n6_nxtq" name="n6" src="bsj611p" fileName="Common_Image1/shang_biaoqian01.png" pkg="5cinh7cr" xy="487,-5" size="177,63" group="n8_nxtq"/>
+    <text id="n7_nxtq" name="Title_ZhenShon" xy="487,-3" size="118,58" group="n8_nxtq" fontSize="26" color="#ffff33" align="center" vAlign="middle" autoSize="none" bold="true" text="双倍赠送">
+      <relation target="n6_nxtq" sidePair="width-width"/>
+    </text>
+    <group id="n8_nxtq" name="Comt_ZhenSon" xy="487,-5" size="177,63" advanced="true">
+      <relation target="n0_nxtq" sidePair="top-top,right-right"/>
+    </group>
+  </displayList>
+</component>

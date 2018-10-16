@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="212,129" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="i5g7zs" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_i5g7" name="title" xy="16,19" size="180,50" fontSize="35" color="#666666" align="center" vAlign="middle" autoSize="none" bold="true" text="购买10次"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.20"/>
+</component>

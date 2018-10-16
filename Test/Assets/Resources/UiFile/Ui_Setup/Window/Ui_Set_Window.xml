@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="520,750">
+  <displayList>
+    <component id="n0_n4so" name="BgSet" src="i5g7104" fileName="Ui_Common_Part/Ui_CommonKuang_Part.xml" pkg="5cinh7cr" xy="0,0" size="520,750"/>
+    <component id="n3_n4so" name="ButtonIcon" src="n4sowb" fileName="Ui_CommonButton_Part/Ui_Headportrait_Part.xml" pkg="5cinh7cr" xy="51,119" scale="1.4,1.4"/>
+    <component id="n4_n4so" name="Button_XiuGai" src="8zkt113" fileName="Ui_Common_Part/Ui_SetBut1_Part.xml" pkg="5cinh7cr" xy="48,245" size="118,43"/>
+    <text id="n8_n4so" name="Title_banhao" xy="231,251" size="176,28" fontSize="20" color="#ffffff" autoSize="none" text="版本号：2.25.5"/>
+    <image id="n9_n4so" name="n9" src="nt6413y" fileName="Common_Image1/DiKuangBg.png" pkg="5cinh7cr" xy="27,306" size="464,252" group="n23_qioy"/>
+    <text id="n15_n4so" name="Title_FishNume" xy="67,499" size="163,38" group="n23_qioy" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="钓鱼总数：2000"/>
+    <text id="n16_n4so" name="Title_Probability" xy="301,499" size="163,38" group="n23_qioy" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="胜率：2000"/>
+    <image id="n28_bsj6" name="YinXiao" src="8zktd" fileName="Image/shezhi_yinxiao01.png" xy="57,340" size="103,114" group="n27_8zkt"/>
+    <image id="n29_bsj6" name="YinYue" src="8zkte" fileName="Image/shezhi_yinyue01.png" xy="210,340" size="103,114" group="n27_8zkt"/>
+    <image id="n30_bsj6" name="n30" src="i5g75" fileName="Image/shezhi_zhendong01.png" xy="365,341" size="103,114" group="n27_8zkt"/>
+    <component id="n11_n4so" name="Button_YinYue" src="n4so2" fileName="Part/Ui_YinXiao_Part.xml" xy="55,341" size="106,148" group="n27_8zkt">
+      <Button icon="ui://f0qleca38zktd"/>
+    </component>
+    <component id="n12_n4so" name="Button_YinXiao" src="n4so2" fileName="Part/Ui_YinXiao_Part.xml" xy="210,341" size="106,148" group="n27_8zkt"/>
+    <component id="n13_n4so" name="Button_ZhonDon" src="n4so2" fileName="Part/Ui_YinXiao_Part.xml" xy="367,341" size="106,148" group="n27_8zkt"/>
+    <group id="n27_8zkt" name="Comt_ButtonChaoZhuo" xy="55,340" size="418,149" group="n23_qioy" advanced="true"/>
+    <component id="n18_n4so" name="Button_language" src="8zkt115" fileName="Ui_Common_Part/Ui_SetBut3_Part.xml" pkg="5cinh7cr" xy="69,575" size="150,60" group="n23_qioy"/>
+    <component id="n19_n4so" name="Button_Notice" src="8zkt114" fileName="Ui_Common_Part/Ui_SetBut2_Part.xml" pkg="5cinh7cr" xy="279,575" size="150,58" group="n23_qioy" aspect="true"/>
+    <group id="n23_qioy" name="Comt_Info" xy="27,306" size="464,329" advanced="true"/>
+    <image id="n20_n4so" name="n20" src="nt6413y" fileName="Common_Image1/DiKuangBg.png" pkg="5cinh7cr" xy="45,676" size="328,39" group="n24_t6nc"/>
+    <text id="n21_n4so" name="Title_Inputnumber" xy="50,679" size="318,34" group="n24_t6nc" input="true" maxLength="20" keyboardType="6" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="请输入兑换码"/>
+    <component id="n22_n4so" name="Button_duiHuanMa" src="8zkt113" fileName="Ui_Common_Part/Ui_SetBut1_Part.xml" pkg="5cinh7cr" xy="380,675" size="109,40" group="n24_t6nc"/>
+    <group id="n24_t6nc" name="Comt_IiHuanMa" xy="45,675" size="444,40" advanced="true"/>
+    <image id="n31_bsj6" name="n31" src="g4u2up" fileName="Common_Image/diguang_01.png" pkg="5cinh7cr" xy="182,119" size="249,39" group="n33_bsj6"/>
+    <text id="n32_bsj6" name="Title_Name" xy="187,122" size="242,34" group="n33_bsj6" input="true" maxLength="20" keyboardType="6" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" text="角色昵称"/>
+    <group id="n33_bsj6" name="Comt_HeroNiChen" xy="182,119" size="250,39" advanced="true" collapsed="true"/>
+    <image id="n34_bsj6" name="n34" src="g4u2up" fileName="Common_Image/diguang_01.png" pkg="5cinh7cr" xy="183,169" size="250,39" group="n36_bsj6"/>
+    <text id="n35_bsj6" name="Title_GameHao" xy="188,172" size="243,34" group="n36_bsj6" input="true" maxLength="20" keyboardType="6" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" text="游戏号：32541"/>
+    <group id="n36_bsj6" name="Comt_HeroZhangHao" xy="183,169" size="250,39" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

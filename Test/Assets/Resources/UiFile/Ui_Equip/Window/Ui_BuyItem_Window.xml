@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,480">
+  <displayList>
+    <component id="n0_avfh" name="Bg" src="i5g7104" fileName="Ui_Common_Part/Ui_CommonKuang_Part.xml" pkg="5cinh7cr" xy="1,1" size="500,480">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_avfh" name="Equip_icon" src="vwqrvy" fileName="Ui_CommonButton_Part/Ui_ItemInfo_Part.xml" pkg="5cinh7cr" xy="190,105" size="120,120">
+      <relation target="" sidePair="center-center,top-top"/>
+    </component>
+    <text id="n2_avfh" name="Title_EquipName" xy="140,245" size="219,40" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="藤虎垃圾鱼竿">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n5_avfh" name="button_Buy" src="8zkt11l" fileName="Ui_CommonButton_Part/Ui_ButtonOrange_Part.xml" pkg="5cinh7cr" xy="160,388"/>
+    <component id="n6_sm23" name="slider_num" src="ppvop" fileName="Part/Ui_SliderCount_Part.xml" xy="50,333" size="400,12">
+      <Slider value="1" max="100"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,120" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <component id="n53_h2k1" name="Equip_Icon" src="nxtq10e" fileName="Ui_Common_Part/Ui_Icon_Part.xml" pkg="5cinh7cr" xy="5,0" size="90,90">
+      <relation target="" sidePair="center-center,height-height"/>
+    </component>
+    <text id="n60_h2k1" name="title" xy="0,90" size="100,28" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="装备垃圾">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </text>
+    <image id="n61_h2k1" name="Kuang" src="v6062m" fileName="Common_Image/diban_06.png" pkg="5cinh7cr" xy="5,0">
+      <relation target="" sidePair="left-left,top-top"/>
+    </image>
+    <image id="n62_h2k1" name="Gou" src="v6062n" fileName="Common_Image/duigou_02.png" pkg="5cinh7cr" xy="-1,-5">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="n61_h2k1" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

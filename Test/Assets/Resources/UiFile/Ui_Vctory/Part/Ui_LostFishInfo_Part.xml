@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="410,270">
+  <displayList>
+    <image id="n0_optz" name="n0" src="t5bcf" xy="5,-1">
+      <relation target="" sidePair="center-center,top-top"/>
+    </image>
+    <loader id="n1_optz" name="Loader_FishIcon" xy="61,55" size="288,148" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n2_optz" name="List_Stat" src="qioywg" pkg="5cinh7cr" xy="27,17">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <text id="n3_optz" name="Title_FishName" xy="28,216" size="210,39" fontSize="28" color="#ffcc33" align="center" vAlign="middle" autoSize="none" text="鱼的六个字名称">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <text id="n4_optz" name="Title_Fishleng" xy="266,216" size="116,39" fontSize="28" color="#33ff66" align="center" vAlign="middle" autoSize="none" text="25.25cm">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+  </displayList>
+</component>

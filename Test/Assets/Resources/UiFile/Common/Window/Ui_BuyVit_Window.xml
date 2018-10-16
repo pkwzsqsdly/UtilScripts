@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="420,570">
+  <displayList>
+    <component id="n3_qb9c" name="commonBg" src="i5g7104" fileName="Ui_Common_Part/Ui_CommonKuang_Part.xml" xy="0,0" size="420,570">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n16_qb9c" name="Button_JiaGe" src="8zkt11i" fileName="Ui_Common_Part/Ui_Button05_Part.xml" xy="120,460"/>
+    <image id="n15_qb9c" name="n1" src="nt6413y" fileName="Common_Image1/DiKuangBg.png" xy="25,304" size="370,71" group="n17_nxtq"/>
+    <image id="n21_8zkt" name="n21" src="nxtq10d" fileName="Common_Image/chancheng_jiantou01.png" xy="180,324" pivot="0.5,0.5" size="60,35" group="n17_nxtq" rotation="180"/>
+    <image id="n22_8zkt" name="n22" src="h2k1zc" fileName="Common_Image1/zhu_tili01.png" xy="263,316" group="n25_8zkt"/>
+    <text id="n23_8zkt" name="Title_VitNum" xy="304,324" size="59,28" group="n25_8zkt" fontSize="24" color="#ffffff" autoSize="none" text="20"/>
+    <group id="n25_8zkt" name="Comt_Vit" xy="263,316" size="100,48" group="n17_nxtq" advanced="true" collapsed="true"/>
+    <text id="n19_8zkt" name="Title_JewelNum" xy="103,326" size="59,28" group="n26_8zkt" fontSize="24" color="#ffffff" autoSize="none" text="20"/>
+    <image id="n20_8zkt" name="JewelIcon" src="h2k1zb" fileName="Common_Image1/zhu_zuanshi01.png" xy="52,318" group="n26_8zkt"/>
+    <group id="n26_8zkt" name="n26" xy="52,318" size="110,42" group="n17_nxtq" collapsed="true"/>
+    <group id="n17_nxtq" name="Comt_Info" xy="25,304" size="370,71" advanced="true"/>
+    <image id="n18_8zkt" name="n18" src="h2k1zc" fileName="Common_Image1/zhu_tili01.png" xy="150,118" size="120,150"/>
+    <text id="n24_8zkt" name="Title_TiShi" xy="119,418" size="182,28" fontSize="20" color="#999999" align="center" vAlign="middle" autoSize="none" text="今天还可再买5次"/>
+  </displayList>
+</component>

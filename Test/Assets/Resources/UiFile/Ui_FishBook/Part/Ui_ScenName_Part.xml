@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="168,61" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="i5g76" xy="0,0" size="168,61">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_lq1i" name="n2" src="i5g77" xy="0,0" size="168,61">
+      <relation target="n1" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n6_i5g7" name="title" xy="14,12" size="146,45" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" text="马里亚纳海沟"/>
+    <image id="n9_i5g7" name="TiShi" src="v6062u" pkg="5cinh7cr" xy="148,-3" size="20,20"/>
+  </displayList>
+  <Button downEffect="scale" downEffectValue="1.20"/>
+</component>

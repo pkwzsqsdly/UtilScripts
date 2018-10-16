@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6n0cs2cl" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="9bv50" name="ditu_01_01.png" path="/" exported="true"/>
+    <image id="9bv51" name="ditu_01_02.png" path="/" exported="true"/>
+    <image id="9bv52" name="ditu_01_03.png" path="/" exported="true"/>
+  </resources>
+  <publish name="Ui_AssetWorld"/>
+</packageDescription>

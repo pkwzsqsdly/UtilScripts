@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,130" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="bbmu11v" xy="0,0" size="100,100">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <loader id="n4_bbmu" name="icon" xy="10,10" size="80,80">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n5_bbmu" name="title" xy="1,105" size="98,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" text="超神礼包">
+      <relation target="n4_bbmu" sidePair="bottom-top,center-center"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="108,322" overflow="hidden" mask="n5_unph">
+  <displayList>
+    <image id="n5_unph" name="mask" src="prkrb" fileName="Image/zhandou_zuo02.png" xy="0,0" pivot="2,0.5" flip="hz" fillMethod="vt" fillOrigin="1"/>
+    <graph id="n9_og6p" name="back" xy="0,0" size="108,322" alpha="0.3" touchable="false" type="rect" lineColor="#ffffffff"/>
+    <image id="n8_pogn" name="curr" src="prkrb" fileName="Image/zhandou_zuo02.png" xy="0,0" pivot="2,0.5" flip="hz" fillMethod="vt" fillOrigin="1"/>
+    <graph id="n6_ry9f" name="Blink" xy="0,0" size="108,322" hideByEditor="true" visible="false" alpha="0.5" touchable="false" type="rect" lineColor="#ffffffff"/>
+  </displayList>
+  <transition name="blink">
+    <item time="0" type="Visible" target="n6_ry9f" value="true"/>
+    <item time="5" type="Visible" target="n6_ry9f" value="false"/>
+  </transition>
+</component>

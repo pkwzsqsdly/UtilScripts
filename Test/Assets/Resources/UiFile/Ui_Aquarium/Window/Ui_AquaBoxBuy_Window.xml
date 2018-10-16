@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,620">
+  <displayList>
+    <component id="n2_qioy" name="Bg" src="i5g7104" fileName="Ui_Common_Part/Ui_CommonKuang_Part.xml" pkg="5cinh7cr" xy="0,0" size="480,620">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <image id="n20_vwqo" name="n20" src="v60641" fileName="Common_Image/xiaodi_01.png" pkg="5cinh7cr" xy="105,119" size="269,149" aspect="true" alpha="0.61" color="#333333"/>
+    <image id="n18_b9sn" name="n18" src="nt6413y" fileName="Common_Image1/DiKuangBg.png" pkg="5cinh7cr" xy="30,306" size="420,153" group="n16_qioy"/>
+    <text id="n15_qioy" name="Title_capacity" xy="40,327" size="400,110" group="n16_qioy" fontSize="20" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="none" text="容量：18扩充20范德萨发生范范德萨发生"/>
+    <group id="n16_qioy" name="Comt_KeChon_Part" xy="30,306" size="420,153" advanced="true"/>
+    <loader id="n17_ikc8" name="Loader_Icon" xy="112,122" size="256,142" aspect="true" fill="scale"/>
+    <component id="n19_vwqo" name="button_Buy" src="t04413b" fileName="Ui_CommonButton_Part/Ui_ButtonGreen_Part.xml" pkg="5cinh7cr" xy="150,499"/>
+  </displayList>
+</component>

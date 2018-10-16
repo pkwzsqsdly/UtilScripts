@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="214,30" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <text id="n4_qb9c" name="title" xy="30,0" size="183,30" fontSize="20" color="#00cccc" vAlign="middle" autoSize="none" text="稀有度加成：220%">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <image id="n5_qb9c" name="imgBg" src="v6062m" fileName="Common_Image/diban_06.png" pkg="5cinh7cr" xy="0,0"/>
+    <image id="n6_qb9c" name="imgflag" src="v6062n" fileName="Common_Image/duigou_02.png" pkg="5cinh7cr" xy="-2,-2" size="33,31">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

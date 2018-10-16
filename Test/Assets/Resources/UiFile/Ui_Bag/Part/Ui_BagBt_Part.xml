@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="547,106" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <controller name="BagOrShop" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n8_rgx3" name="Bg" src="rgx318" fileName="Image/beibao_taitou02.png" xy="0,0" size="547,106">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n12_rgx3" name="ShopGaoLiang" src="rgx3n" fileName="Image/shangcheng_taitou01.png" xy="-1,0" visible="false">
+      <gearDisplay controller="BagOrShop" pages="1"/>
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n3_e05y" name="XuanZhon" src="rgx3o" fileName="Image/beibao_taitou01.png" xy="0,1">
+      <gearDisplay controller="BagOrShop" pages="0"/>
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <component id="n5_rgx3" name="Button_Bag" src="bbmu1k" fileName="Part/Ui_BagOrShop_Part.xml" xy="22,10" size="225,76">
+      <relation target="" sidePair="width-width%,left-left"/>
+      <Button titleColor="#ffff00" icon="ui://5cinh7crrgx3zq" controller="BagOrShop" page="0"/>
+    </component>
+    <component id="n7_rgx3" name="Button_Shop" src="bbmu1k" fileName="Part/Ui_BagOrShop_Part.xml" xy="303,10" size="225,76">
+      <relation target="" sidePair="width-width%,right-right"/>
+      <Button checked="true" titleColor="#ffff00" icon="ui://5cinh7crrgx3zp" controller="BagOrShop" page="1"/>
+    </component>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

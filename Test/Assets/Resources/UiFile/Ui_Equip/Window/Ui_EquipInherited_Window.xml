@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,720">
+  <displayList>
+    <component id="n1_qvy6" name="Bg" src="i5g7104" fileName="Ui_Common_Part/Ui_CommonKuang_Part.xml" pkg="5cinh7cr" xy="0,0" size="500,720"/>
+    <component id="n45_qb9c" name="Equip_Icon" src="vwqrvy" fileName="Ui_CommonButton_Part/Ui_ItemInfo_Part.xml" pkg="5cinh7cr" xy="340,125" size="90,90"/>
+    <component id="n6_qvy6" name="Equip_IconInfo" src="vwqrvy" fileName="Ui_CommonButton_Part/Ui_ItemInfo_Part.xml" pkg="5cinh7cr" xy="60,125" size="90,90"/>
+    <image id="n47_h2k1" name="n47" src="g4u2up" fileName="Common_Image/diguang_01.png" pkg="5cinh7cr" xy="20,111" size="460,126" group="n51_h2k1"/>
+    <text id="n50_h2k1" name="Title_Jieshao" xy="24,115" size="450,118" group="n51_h2k1" fontSize="20" color="#ffffff" ubb="true" autoSize="none" text="1.尼玛尼玛尼玛&#xA;2.尼玛尼玛尼玛打&#xA;3你大爷你大爷"/>
+    <group id="n51_h2k1" name="Comt_JieShao" xy="20,111" size="460,126" group="n87_h2k1" advanced="true"/>
+    <image id="n52_h2k1" name="n52" src="nt6413y" fileName="Common_Image1/DiKuangBg.png" pkg="5cinh7cr" xy="20,287" size="460,284" group="n84_h2k1"/>
+    <component id="n68_h2k1" name="ls+EquipNormal_1" src="h2k1f" fileName="Part/Ui_EquipMaterial_Part.xml" xy="27,302" size="100,120" group="n84_h2k1">
+      <Button page="0"/>
+    </component>
+    <component id="n69_h2k1" name="ls+EquipNormal_2" src="h2k1f" fileName="Part/Ui_EquipMaterial_Part.xml" xy="142,302" size="100,120" group="n84_h2k1">
+      <Button page="1"/>
+    </component>
+    <component id="n70_h2k1" name="ls+EquipNormal_3" src="h2k1f" fileName="Part/Ui_EquipMaterial_Part.xml" xy="257,302" size="100,120" group="n84_h2k1">
+      <Button page="2"/>
+    </component>
+    <component id="n76_h2k1" name="ls+EquipNormal_4" src="h2k1f" fileName="Part/Ui_EquipMaterial_Part.xml" xy="372,302" size="100,120" group="n84_h2k1">
+      <Button page="3"/>
+    </component>
+    <component id="n78_h2k1" name="ls+EquipNormal_5" src="h2k1f" fileName="Part/Ui_EquipMaterial_Part.xml" xy="27,432" size="100,120" group="n84_h2k1">
+      <Button page="4"/>
+    </component>
+    <component id="n79_h2k1" name="ls+EquipNormal_6" src="h2k1f" fileName="Part/Ui_EquipMaterial_Part.xml" xy="142,432" size="100,120" group="n84_h2k1">
+      <Button page="5"/>
+    </component>
+    <component id="n80_h2k1" name="ls+EquipNormal_7" src="h2k1f" fileName="Part/Ui_EquipMaterial_Part.xml" xy="257,432" size="100,120" group="n84_h2k1">
+      <Button page="6"/>
+    </component>
+    <component id="n81_h2k1" name="ls+EquipNormal_8" src="h2k1f" fileName="Part/Ui_EquipMaterial_Part.xml" xy="372,432" size="100,120" group="n84_h2k1">
+      <Button page="7"/>
+    </component>
+    <group id="n84_h2k1" name="Comt_EquipIcon2" xy="20,287" size="460,284" group="n87_h2k1" advanced="true"/>
+    <text id="n85_h2k1" name="Title_XuanZheZhuangBi" xy="20,242" size="194,36" group="n87_h2k1" fontSize="26" color="#ffffff" vAlign="middle" autoSize="none" text="请选择装备"/>
+    <component id="n104_cz31" name="PageLabel" src="cz31j" fileName="Part/Ui_PageLabel_Part.xml" xy="125,580" size="250,40" group="n87_h2k1"/>
+    <component id="n86_h2k1" name="Button_Back" src="8zkt11i" fileName="Ui_Common_Part/Ui_Button05_Part.xml" pkg="5cinh7cr" xy="160,638" group="n87_h2k1"/>
+    <group id="n87_h2k1" name="Comt_XuanZheCaiLiao" xy="20,111" size="460,589" visible="false" advanced="true"/>
+    <text id="n93_h2k1" name="Title_Material" xy="20,450" size="290,36" group="n99_h2k1" fontSize="20" color="#cccccc" vAlign="middle" autoSize="none" bold="true" text="传承所需消耗的材料"/>
+    <component id="n88_h2k1" name="ls+EquipIcon_1" src="h2k1d" fileName="Part/Ui_EquipIcon_Part.xml" xy="10,506" size="120,120" group="n92_h2k1"/>
+    <component id="n89_h2k1" name="ls+EquipIcon_2" src="h2k1d" fileName="Part/Ui_EquipIcon_Part.xml" xy="130,506" size="120,120" group="n92_h2k1"/>
+    <component id="n90_h2k1" name="ls+EquipIcon_3" src="h2k1d" fileName="Part/Ui_EquipIcon_Part.xml" xy="250,506" size="120,120" group="n92_h2k1"/>
+    <component id="n91_h2k1" name="ls+EquipIcon_4" src="h2k1d" fileName="Part/Ui_EquipIcon_Part.xml" xy="370,506" size="120,120" group="n92_h2k1"/>
+    <group id="n92_h2k1" name="Comt_MaterialIcon" xy="10,506" size="480,120" group="n99_h2k1" advanced="true" layout="hz"/>
+    <image id="n100_nxtq" name="n100" src="nxtq10d" fileName="Common_Image/chancheng_jiantou01.png" pkg="5cinh7cr" xy="188,130" group="n49_h2k1"/>
+    <text id="n7_qvy6" name="Title_Name" xy="40,230" pivot="0.5,0.5" size="125,27" group="n49_h2k1" fontSize="22" color="#ffffff" align="center" vAlign="middle" text="+5 腾虎鱼竿"/>
+    <component id="n32_qb9c" name="Button_AddEquip" src="qb9cb" fileName="Part/Ui_ButtonAdd_Part.xml" xy="340,125" size="90,90" group="n49_h2k1"/>
+    <text id="n33_qb9c" name="Title_ChoiceEquip" xy="306,230" pivot="0.5,0.5" size="159,27" group="n49_h2k1" fontSize="22" color="#66ff33" align="center" vAlign="middle" text="请选择材料装备"/>
+    <group id="n49_h2k1" name="Comt_EquipIcon" xy="40,125" size="425,134" group="n99_h2k1" advanced="true" collapsed="true"/>
+    <image id="n13_qvy6" name="n13" src="h2k1yw" fileName="Common_Image1/chancheng_kuang02.png" pkg="5cinh7cr" xy="15,272" size="470,170" group="n98_h2k1"/>
+    <text id="n94_h2k1" name="Title_Atk" xy="20,304" size="223,50" group="n98_h2k1" fontSize="30" color="#ffffff" align="right" vAlign="middle" autoSize="none" bold="true" text="伤害：2555"/>
+    <text id="n95_h2k1" name="Title_AddAkt" xy="310,304" size="164,50" group="n98_h2k1" fontSize="30" color="#33ff33" vAlign="middle" autoSize="none" bold="true" text="→255555"/>
+    <text id="n96_h2k1" name="Title_GrowUpAtk" xy="26,376" size="447,36" group="n98_h2k1" fontSize="26" color="#ff9900" align="center" vAlign="middle" autoSize="none" bold="true" text="伤害最大成长值：255555"/>
+    <image id="n102_cz31" name="n102" src="nxtq10d" fileName="Common_Image/chancheng_jiantou01.png" pkg="5cinh7cr" xy="248,310" size="55,32" group="n98_h2k1" aspect="true" color="#00ff66" flip="hz"/>
+    <group id="n98_h2k1" name="Comt_ShuXin" xy="15,272" size="470,170" group="n99_h2k1" advanced="true" collapsed="true"/>
+    <component id="n105_cz31" name="Button_Ok" src="8zkt11i" fileName="Ui_Common_Part/Ui_Button05_Part.xml" pkg="5cinh7cr" xy="150,639" size="200,57" group="n99_h2k1"/>
+    <group id="n99_h2k1" name="Comt_ChuanChen" xy="10,125" size="480,571" hideByEditor="true" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

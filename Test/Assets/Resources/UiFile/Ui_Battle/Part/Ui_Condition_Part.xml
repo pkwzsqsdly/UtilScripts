@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="340,100">
+  <displayList>
+    <image id="n0_unph" name="n0" src="prkr10m" pkg="5cinh7cr" xy="-1,-1" size="340,100"/>
+    <text id="n1_unph" name="Title_LevelTiaoJian" xy="65,8" size="210,37" fontSize="32" color="#ff9900" align="center" autoSize="none" bold="true" text="通关条件"/>
+    <text id="n2_unph" name="Title_MiaoShu" xy="31,49" size="277,37" fontSize="24" color="#cccccc" align="center" vAlign="middle" autoSize="none" text="钓10条小丑鱼"/>
+  </displayList>
+</component>

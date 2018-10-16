@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,100">
+  <displayList>
+    <image id="n0_i5g7" name="n0" src="nt6413z" fileName="Common_Image1/DiKuangBg01.png" xy="0,0" size="400,100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_i5g7" name="n1" src="h2k1z5" fileName="Common_Image1/meir_taitou01.png" xy="87,25" size="226,50" aspect="true">
+      <relation target="n0_i5g7" sidePair="top-top,center-center"/>
+    </image>
+    <component id="n2_i5g7" name="Button_Clost" src="jvb3v5" fileName="Ui_CommonButton_Part/Ui_Colst_Part.xml" xy="360,-20" size="60,60">
+      <relation target="n0_i5g7" sidePair="right-right,top-top"/>
+    </component>
+    <text id="n3_bbmu" name="Title_Tag" xy="132,35" size="131,30" fontSize="28" color="#ffffff" align="center" vAlign="middle" letterSpacing="4" autoSize="none" bold="true" text="任务">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+  </displayList>
+</component>

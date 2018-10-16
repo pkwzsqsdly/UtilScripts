@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <component id="n0_d4cc" name="TopMain" src="d4ccv9" fileName="Ui_Common_Part/Ui_TopMain_Part.xml" pkg="5cinh7cr" xy="0,0" size="720,60">
+      <relation target="" sidePair="width-width,top-top"/>
+    </component>
+    <image id="n44_h2k1" name="n44" src="h2k14" fileName="Image/zhu_zhuozi01.png" xy="0,855">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <component id="n2_d4cc" name="Button_Icon" src="n4sowb" fileName="Ui_CommonButton_Part/Ui_Headportrait_Part.xml" pkg="5cinh7cr" xy="0,-1" size="75,75">
+      <Button icon="ui://5cinh7crelne12b"/>
+    </component>
+    <image id="n6_d4cc" name="n6" src="v6062k" fileName="Common_Image/diban_02.png" pkg="5cinh7cr" xy="0,74" size="100,30" group="n8_d4cc"/>
+    <text id="n7_d4cc" name="Title_Name" xy="0,74" size="100,30" group="n8_d4cc" fontSize="14" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="六个字的名称">
+      <relation target="n6_d4cc" sidePair="width-width,height-height"/>
+    </text>
+    <group id="n8_d4cc" name="Comb_HeroName" xy="0,74" size="100,30" advanced="true" collapsed="true"/>
+    <component id="n9_d4cc" name="Exp" src="h2k1ws" fileName="Ui_Common_Part/Ui_BarExp_Part.xml" pkg="5cinh7cr" xy="116,64" size="575,20"/>
+    <image id="n14_d4cc" name="n14" src="h2k13" fileName="Image/zhu_xiadi01.png" xy="0,1208" size="720,73" group="n15_d4cc"/>
+    <group id="n15_d4cc" name="Comt_DiBuInfo" xy="0,1208" size="720,73" advanced="true" collapsed="true">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </group>
+    <component id="n28_d4cc" name="Button_Sign" src="h2k1ze" fileName="Ui_CommonButton_Part/Ui_FuncitBut_Part.xml" pkg="5cinh7cr" xy="25,125" scale="0.8,0.8">
+      <Button icon="ui://5cinh7crh2k1yh"/>
+    </component>
+    <component id="n30_i5qj" name="Button_Aqu" src="bbmu11y" fileName="Ui_CommonButton_Part/Ui_Aque_Part.xml" pkg="5cinh7cr" xy="22,303">
+      <Button icon="ui://5cinh7crh2k1yi"/>
+    </component>
+    <component id="n31_i5qj" name="Button_XinShouBag" src="bbmu11w" fileName="Ui_CommonButton_Part/Ui_BoxButton_Part.xml" pkg="5cinh7cr" xy="360,102" group="n34_i5qj">
+      <Button icon="ui://5cinh7crh2k1yq"/>
+    </component>
+    <component id="n32_i5qj" name="Button_ZenQiangBag" src="bbmu11w" fileName="Ui_CommonButton_Part/Ui_BoxButton_Part.xml" pkg="5cinh7cr" xy="483,102" group="n34_i5qj">
+      <Button icon="ui://5cinh7crh2k1ys"/>
+    </component>
+    <component id="n33_i5qj" name="Button_ChaoShenBag" src="bbmu11w" fileName="Ui_CommonButton_Part/Ui_BoxButton_Part.xml" pkg="5cinh7cr" xy="606,102" group="n34_i5qj">
+      <Button icon="ui://5cinh7crh2k1yr"/>
+    </component>
+    <group id="n34_i5qj" name="Comb_Bag" xy="360,102" size="346,100" advanced="true" collapsed="true" layout="hz" colGap="23">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <component id="n42_tksi" name="Button_Activity" src="h2k1ze" fileName="Ui_CommonButton_Part/Ui_FuncitBut_Part.xml" pkg="5cinh7cr" xy="26,1170" size="78,108" group="n43_tksi">
+      <Button icon="ui://5cinh7crh2k1yn"/>
+    </component>
+    <component id="n39_tksi" name="Button_Box" src="h2k1ze" fileName="Ui_CommonButton_Part/Ui_FuncitBut_Part.xml" pkg="5cinh7cr" xy="144,1172" size="78,108" group="n43_tksi">
+      <Button icon="ui://5cinh7crh2k1yk"/>
+    </component>
+    <component id="n35_tksi" name="Button_Ranking" src="h2k1ze" fileName="Ui_CommonButton_Part/Ui_FuncitBut_Part.xml" pkg="5cinh7cr" xy="262,1172" size="78,108" group="n43_tksi">
+      <Button icon="ui://5cinh7crh2k1yu"/>
+    </component>
+    <component id="n41_tksi" name="Button_FishBook" src="h2k1ze" fileName="Ui_CommonButton_Part/Ui_FuncitBut_Part.xml" pkg="5cinh7cr" xy="380,1166" size="78,108" group="n43_tksi">
+      <Button icon="ui://5cinh7crh2k1yj"/>
+    </component>
+    <component id="n40_tksi" name="Button_Achievent" src="h2k1ze" fileName="Ui_CommonButton_Part/Ui_FuncitBut_Part.xml" pkg="5cinh7cr" xy="498,1166" size="78,108" group="n43_tksi">
+      <Button icon="ui://5cinh7crh2k1ym"/>
+    </component>
+    <component id="n38_tksi" name="Button_Bag" src="h2k1ze" fileName="Ui_CommonButton_Part/Ui_FuncitBut_Part.xml" pkg="5cinh7cr" xy="616,1170" size="80,108" group="n43_tksi">
+      <Button icon="ui://5cinh7crh2k1yl"/>
+    </component>
+    <group id="n43_tksi" name="Ui_Fount" xy="26,1166" size="670,114" advanced="true" layout="hz" colGap="40">
+      <relation target="" sidePair="bottom-bottom,center-center"/>
+    </group>
+    <image id="n45_h2k1" name="n45" src="h2k15" fileName="Image/zhu_chuan01.png" xy="311,904" size="278,151">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <component id="n47_unph" name="Button_Start" src="unph7" fileName="Part/Ui_Start_Part.xml" xy="432,811">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+  </displayList>
+  <transition name="t0"/>
+  <transition name="t1"/>
+  <transition name="t2">
+    <item time="0" type="XY" target="n45_h2k1" tween="true" startValue="252,779" endValue="256,770" duration="5" repeat="-1"/>
+    <item time="5" type="XY" target="n45_h2k1" tween="true" startValue="256,770" endValue="245,775" duration="5" repeat="-1"/>
+    <item time="10" type="XY" target="n45_h2k1" tween="true" startValue="245,775" ease="Quad.InOut" repeat="-1"/>
+  </transition>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300">
+  <displayList>
+    <image id="n3_8kxm" name="Drag" src="8kxm1w" fileName="Image/xiao_01.png" xy="150,150" pivot="1.4,0.5" anchor="true" size="235,142" flip="hz"/>
+    <image id="n4_8kxm" name="Power" src="8kxm1v" fileName="Image/da_01.png" xy="150,150" pivot="0.5,1.2" anchor="true" size="295,290"/>
+    <component id="n0_8kxm" name="BtnReel" src="unph1n" fileName="Part/Ui_Reel_Part.xml" xy="0,500"/>
+    <image id="n2_8kxm" name="Light" src="ry9f1t" fileName="Image/Fish_img_gaoliangxianshi.png" xy="0,0" size="300,300" hideByEditor="true"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="XY" target="n0_8kxm" tween="true" startValue="-,500" endValue="-,0" duration="12" ease="Back.Out"/>
+  </transition>
+  <transition name="t1">
+    <item time="0" type="XY" target="n3_8kxm" tween="true" startValue="250,-" endValue="150,-" duration="9" ease="Linear"/>
+    <item time="5" type="Alpha" target="n3_8kxm" tween="true" startValue="1" endValue="0" duration="4"/>
+  </transition>
+  <transition name="t2">
+    <item time="0" type="XY" target="n4_8kxm" tween="true" startValue="-,250" endValue="150,150" duration="9" ease="Linear"/>
+    <item time="5" type="Alpha" target="n4_8kxm" tween="true" startValue="1" endValue="0" duration="4" ease="Linear"/>
+  </transition>
+</component>

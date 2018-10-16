@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,70" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="i5g7100" fileName="Common_Image1/shuizu_yuxianze02.png" pkg="5cinh7cr" xy="0,0" size="200,70">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="i5g7zz" fileName="Common_Image1/shuizu_yuxianze01.png" pkg="5cinh7cr" xy="0,0" size="200,70">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n3" name="title" xy="82,0" size="113,70" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" strokeColor="#000000" singleLine="true" text="黄金宝箱">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n4" name="icon" xy="9,4" size="68,63" align="center" vAlign="middle" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

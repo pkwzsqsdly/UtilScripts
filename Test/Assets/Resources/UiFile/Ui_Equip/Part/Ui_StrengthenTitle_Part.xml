@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="250,80">
+  <displayList>
+    <image id="n0_k3am" name="imgSuccess" src="b9sn6" fileName="qianghuachenggong_01.png" pkg="6fbjpm74" xy="11,6" pivot="0.5,0.5"/>
+    <image id="n1_k3am" name="imgFailed" src="b9sn7" fileName="qianghuashibai_01.png" pkg="6fbjpm74" xy="2,1" pivot="0.5,0.5"/>
+  </displayList>
+  <transition name="success">
+    <item time="0" type="Alpha" target="n0_k3am" value="1"/>
+    <item time="0" type="Rotation" target="n0_k3am" tween="true" startValue="360" endValue="0" duration="7" ease="Linear"/>
+    <item time="0" type="Scale" target="n0_k3am" tween="true" startValue="5,5" endValue="1,1" duration="7" ease="Linear"/>
+    <item time="11" type="Alpha" target="n0_k3am" tween="true" startValue="1" endValue="0" duration="5" ease="Linear"/>
+  </transition>
+  <transition name="fail">
+    <item time="0" type="Alpha" target="n1_k3am" value="1"/>
+    <item time="0" type="Rotation" target="n1_k3am" tween="true" startValue="360" endValue="0" duration="7" ease="Linear"/>
+    <item time="0" type="Scale" target="n1_k3am" tween="true" startValue="5,5" endValue="1,1" duration="7" ease="Linear"/>
+    <item time="11" type="Alpha" target="n1_k3am" tween="true" startValue="1" endValue="0" duration="5" ease="Linear"/>
+  </transition>
+</component>
