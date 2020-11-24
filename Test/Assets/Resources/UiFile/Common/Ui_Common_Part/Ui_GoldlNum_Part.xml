@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="157,37" extention="Label">
-  <displayList>
-    <text id="n1_qioy" name="title" xy="46,1" size="105,35" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" text="30000"/>
-    <loader id="n3_qb9c" name="icon" xy="5,2" size="36,32"/>
-  </displayList>
-</component>

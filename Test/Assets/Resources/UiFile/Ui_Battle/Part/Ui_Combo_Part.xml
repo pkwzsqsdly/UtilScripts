@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="212,115" extention="Label">
-  <displayList>
-    <image id="n2_ry9f" name="n2" src="prkr1" xy="0,0"/>
-    <text id="n1" name="title" xy="20,60" size="190,40" rotation="-15" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" text="Combo * 2"/>
-  </displayList>
-</component>

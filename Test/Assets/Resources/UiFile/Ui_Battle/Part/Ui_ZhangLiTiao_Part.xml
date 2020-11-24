@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="111,327" mask="n11_pogn">
-  <displayList>
-    <image id="n11_pogn" name="mask" src="prkr7" fileName="Image/zhandou_you02.png" xy="0,0" pivot="-0.8,0.5" fillMethod="vt" fillOrigin="1" fillAmount="99"/>
-    <graph id="n8_8kxm" name="back" xy="0,0" size="111,327" alpha="0.3" type="rect" lineColor="#ff999999" fillColor="#ff999999"/>
-    <image id="n7_ry9f" name="zone" src="prkr7" fileName="Image/zhandou_you02.png" xy="0,0" pivot="-1,0.5" alpha="0.3" flip="vt" fillMethod="vt" fillOrigin="1" fillAmount="99"/>
-    <image id="n6_unph" name="curr" src="prkr7" fileName="Image/zhandou_you02.png" xy="0,0" pivot="-0.8,0.5" fillMethod="vt" fillOrigin="1" fillAmount="99"/>
-  </displayList>
-</component>

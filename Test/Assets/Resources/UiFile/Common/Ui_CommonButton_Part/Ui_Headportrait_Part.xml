@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="80,80" extention="Button">
-  <displayList>
-    <loader id="n6_jye2" name="icon" xy="0,0" size="78,78" align="center" vAlign="middle" fill="scale">
-      <relation target="" sidePair="width-width%,height-height%"/>
-    </loader>
-  </displayList>
-  <Button/>
-</component>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="200,85">
-  <displayList>
-    <image id="n4_o2mn" name="n4" src="o2mn9" fileName="zhongyu_01.png" pkg="6fbjpm74" xy="35,32" size="130,52" aspect="true"/>
-    <image id="n3_o2mn" name="Boss" src="o2mn8" fileName="boss_01.png" pkg="6fbjpm74" xy="0,1"/>
-  </displayList>
-</component>

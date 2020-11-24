@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="600,40" extention="ProgressBar">
-  <displayList>
-    <image id="n0_9bv5" name="n0" src="9bv51" xy="20,5" size="560,30"/>
-    <image id="n1_9bv5" name="bar" src="9bv52" xy="24,8" size="552,23"/>
-    <text id="n2_9bv5" name="title" xy="250,6" size="100,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" shadowColor="#000000" shadowOffset="1,1" text="100%"/>
-  </displayList>
-  <ProgressBar/>
-</component>

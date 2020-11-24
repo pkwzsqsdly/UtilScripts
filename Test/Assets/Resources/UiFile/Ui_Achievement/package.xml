@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="ivgudsh5" jpegQuality="80" compressPNG="true">
-  <resources>
-    <component id="g4u20" name="Ui_Achievement_View.xml" path="/View/" exported="true"/>
-    <image id="qioy1" name="changtiao_07.png" path="/Image/" exported="true"/>
-  </resources>
-  <publish name="Ui_Achievement"/>
-</packageDescription>
