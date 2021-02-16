@@ -1,8 +1,8 @@
 # coding=utf8
 #!user/bin/python
 import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
+# reload(sys)
+# sys.setdefaultencoding('utf-8')
 eles = ["地","水","火","风","光","暗"]
 vals = []
 	#[1,4,12,36,101,324]

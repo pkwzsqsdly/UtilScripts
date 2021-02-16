@@ -1,0 +1,28 @@
+{
+	"contrastType": 
+	{
+		"csharp": 
+		{
+			"fileSuffix":".cs",
+			"variable":
+			{
+				"int": "public int {0} {{ get; private set; }}",
+				"float": "public float {0} {{ get; private set; }}",
+				"string": "public string {0} {{ get; private set; }}",
+				"ilist": "public List<int> {0} {{ get; private set; }}",
+				"flist": "public List<float> {0} {{ get; private set; }}",
+				"slist": "public List<string> {0} {{ get; private set; }}"
+			},
+			"readVar":
+			{
+				"int": "{0} = br.ReadInt32();",
+				"float": "{0} = (float)br.ReadDouble();",
+				"string": "{0} = br.ReadString();",
+				"ilist": "int len{0} = br.ReadInt32();\n\t\tfor (int i = 0; i < len{0}; i++)\n\t\t\t{0}[i] = br.ReadInt32();",
+				"flist": "int len{0} = br.ReadInt32();\n\t\tfor (int i = 0; i < len{0}; i++)\n\t\t\t{0}[i] = (float)br.ReadDouble();",
+				"slist": "int len{0} = br.ReadInt32();\n\t\tfor (int i = 0; i < len{0}; i++)\n\t\t\t{0}[i] = br.ReadString();"
+			},
+			"description":"\t/// <summary>\n\t/// {0}\n\t/// </summary>\n"
+		}
+	}
+}

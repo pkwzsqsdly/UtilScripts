@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="300,300" extention="Button">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
-  <displayList>
-    <image id="n2_nu5a" name="ReelButton" src="nu5a1o" xy="29,31"/>
-    <graph id="n3_pogn" name="ReelBall" xy="250,130" pivot="-2.5,0.5" size="40,40" alpha="0.6" rotation="-180" touchable="false" type="eclipse" fillColor="#ff000000"/>
-  </displayList>
-  <Button downEffect="scale" downEffectValue="1.10"/>
-</component>

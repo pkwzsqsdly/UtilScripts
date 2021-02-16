@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="500,500">
-  <displayList>
-    <component id="n0_mmyj" name="button_Pause" src="mmyj27" fileName="Part/Ui_BtnPause_Part.xml" xy="220,219">
-      <relation target="" sidePair="center-center,middle-middle"/>
-    </component>
-  </displayList>
-</component>

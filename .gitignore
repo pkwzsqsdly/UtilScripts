@@ -12,6 +12,7 @@
 ~$*.xlsx
 **/Temp
 **/obj
+**/bin
 **/backup
 **/BackUp
 **/Debug

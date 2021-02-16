@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="149,51" extention="Label">
-  <displayList>
-    <text id="n1" name="title" xy="57,0" size="88,51" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" singleLine="true" text="水族箱">
-      <relation target="" sidePair="width-width,height-height"/>
-    </text>
-    <loader id="n2_bbmu" name="icon" xy="3,1" size="50,50"/>
-  </displayList>
-</component>

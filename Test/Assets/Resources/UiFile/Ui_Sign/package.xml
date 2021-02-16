@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="5gxo0riw" jpegQuality="80" compressPNG="true">
-  <resources>
-    <component id="d4cc0" name="Ui_SignComp_Window.xml" path="/Window/" exported="true"/>
-    <component id="d4cc1" name="Ui_SignComp_Part.xml" path="/Part/" exported="true"/>
-  </resources>
-  <publish name="Ui_Sign"/>
-</packageDescription>

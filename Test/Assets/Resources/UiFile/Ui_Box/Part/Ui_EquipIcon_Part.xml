@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="157,141">
-  <displayList>
-    <loader id="n11_ikc8" name="Loader_Icon" xy="25,1" size="105,105"/>
-    <text id="n12_ikc8" name="Title_Name" xy="0,106" size="157,36" fontSize="22" color="#ff6600" align="center" vAlign="middle" autoSize="none" text="装备名称尼玛"/>
-    <image id="n20_wuf7" name="n20" src="v6066b" pkg="5cinh7cr" xy="32,3" size="92,92"/>
-  </displayList>
-</component>
