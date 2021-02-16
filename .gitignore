@@ -9,6 +9,7 @@
 *.pyc
 *.log
 *.idea
+**/.DS_Store
 ~$*.xlsx
 **/Temp
 **/obj
