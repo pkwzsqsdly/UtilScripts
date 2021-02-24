@@ -1,10 +1,10 @@
 using System.IO;
 using LitJson;
 
-public class LocalConfig : Singleton<LocalConfig>
+public class LocalConfig
 {
 	private JsonData jsonData;
-	public override void Init()
+	public void Init()
 	{
 		loadConfig();
 		if(!Directory.Exists("Out"))

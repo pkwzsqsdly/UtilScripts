@@ -1,0 +1,6 @@
+using System.IO;
+
+public class {className} : ITableCellData
+{
+{variable}
+}

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 using McMaster.Extensions.CommandLineUtils;
 
 namespace GenerateExcel
@@ -18,24 +19,38 @@ namespace GenerateExcel
 		private List<string> filePathList;
 		private void OnExecute()
 		{
-			ClassRegistor.Inst.Init();
-			LocalConfig.Inst.Init();
+			// ClassRegistor.Inst.Init();
+			// LocalConfig.Inst.Init();
 			
-			if(FilePath == null)
-			{
-				return;
-			}
+			// if(FilePath == null)
+			// {
+			// 	return;
+			// }
 
-			var outType = OutType ?? "bin";
-			IWrite2File wf = (IWrite2File)ClassRegistor.Inst.Create(outType);
+			// var outType = OutType ?? "bin";
+			// IWrite2File wf = (IWrite2File)ClassRegistor.Inst.Create(outType);
 
 			filePathList = fileAllFile(FilePath);
+			var constTable = new LocalConstTable(new JsonTableSheetData());
+			constTable.LoadTable<CardGroupData>(@"Out/CardGroupData.json");
+			foreach (var item in constTable.localConstTable)
+			{
+				for (int i = 0; i < item.Value.tableCells.Count; i++)
+				{
+					var cell = item.Value.tableCells[i] as CardGroupData;
+					System.Console.WriteLine(cell.Id + "," + cell.CardId);
+				}
+			}
+			return ;
+			ExcelUtils.RegisterAllClass();
 
-			filePathList.ForEach(p => {
-				// new ExcelLoader(new BinFileWriter(),new CSharpTamplate())
-				// 	.Load(@"C:\Users\Lee\Desktop\常量表.xlsx").WriteToFile();
-				new ExcelLoader(wf).Load(p).WriteToFile();
-			});
+			var obj = ExcelUtils.ClassFactory("bin");
+			var fw = obj as IExcelToFile;
+			fw.SetInfo("Out",new CSharpForJson());
+			// filePathList.ForEach(p => {
+				new ExcelLoader(fw,new CSharpForBin())
+					.Load(@"res/人物属性表.xlsx").GenerateFile();
+			// });
 		}
 
 		private List<string> fileAllFile(string path)

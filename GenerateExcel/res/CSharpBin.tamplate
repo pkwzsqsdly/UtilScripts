@@ -1,0 +1,10 @@
+using System.IO;
+
+public class {className} : IBinRead
+{
+{variable}
+	public void Read(ByteArray bArr)
+	{
+{assignment}
+	}
+}
