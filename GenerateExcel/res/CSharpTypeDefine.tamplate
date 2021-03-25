@@ -1,0 +1,14 @@
+using LG.TableUtil.Config;
+using System.Collections.Generic;
+using System.Collections;
+
+public class TableLoaderDefine : ITableLoader
+{
+	public List<System.Action<TableContentCollection>> loaderTableList {get;private set;}
+
+	public TableLoaderDefine()
+	{
+		loaderTableList = new List<System.Action<TableContentCollection>>();
+{variable}
+	}
+}

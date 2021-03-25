@@ -1,4 +1,6 @@
-using System.IO;
+using LG.TableUtil;
+using LG.TableUtil.Json;
+using LG.TableUtil.Config;
 
 public class {className} : ITableCellData
 {

@@ -1,4 +1,8 @@
-using System.IO;
+using LG.TableUtil;
+using LG.TableUtil.Bin;
+using LG.TableUtil.Config;
+using LG.TableUtil.FileOperational;
+
 
 public class {className} : IBinRead
 {
