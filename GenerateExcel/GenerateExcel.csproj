@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="3.1.0" />
+    <ProjectReference Include="D:/project/proj-other/LGTableUtil/LGTableUtil.csproj" />
+    <!-- <Reference Include="LitJson">
+      <HintPath>libs/LitJson.dll</HintPath>
+    </Reference> -->
+    <!-- <Reference Include="ExcelDataReader">
+      <HintPath>libs/ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet">
+      <HintPath>libs/ExcelDataReader.DataSet.dll</HintPath>
+    </Reference> -->
+    <!-- <Reference Include="LGTableUtil">
+      <HintPath>libs/LGTableUtil.dll</HintPath>
+    </Reference> -->
+  </ItemGroup>
+
+</Project>

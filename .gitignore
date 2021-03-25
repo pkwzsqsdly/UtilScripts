@@ -1,9 +1,7 @@
 *.suo
-*.sln
 *.sdf
 .vs
 .vscode
-*.csproj
 *.cache
 *.dwlt
 *.pyc
