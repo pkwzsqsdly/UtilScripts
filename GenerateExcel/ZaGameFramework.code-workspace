@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "ZaGameFramework",
+			"path": "../ZaGameFramework"
+		},
+		{
+			"name": "GenerateExcel",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

@@ -5,6 +5,7 @@ using LG.TableUtil.Bin;
 using System.Text;
 using LG.TableUtil.Config;
 using LG.TableUtil.FileOperational;
+using LG.Probability;
 
 public class TestParse : IBinWriterParse,IBinReaderParse,IBinCSharpParse
 	{
@@ -41,6 +42,20 @@ public class TestParse : IBinWriterParse,IBinReaderParse,IBinCSharpParse
 
 		
 	}
+public class TestProb : IProbabilityItem
+{
+    public int chance {get;set;}
+    public int mark {get;set;}
+
+    public ProbabilityType probabilityType => ProbabilityType.Item;
+
+    public TestProb(int c,int m)
+	{
+		chance = c;
+		mark = m;
+		UserSetting.Log(mark + "," + c);
+	}
+}
 namespace GenerateExcel
 {
 	
@@ -76,32 +91,9 @@ namespace GenerateExcel
 			UserSetting.Initialized(s => {
 				System.Console.WriteLine(s);
 			});
-
+			new Test().Start();
+			return; 
 			
-			var b = new ProbabilityGroup<Probability>();
-			for (int i = 0; i < 10; i++)
-			{
-				b.Add(new Probability(1000,i+1));
-				// if(d) break;
-			}
-			Dictionary<int,int> test = new Dictionary<int, int>();
-			for (int i = 0; i < 100; i++)
-			{
-				int a = b.GetResult();
-				if(test.ContainsKey(a))
-				{
-					test[a] += 1;
-				}else{
-					test.Add(a,1);
-				}
-			}
-
-			foreach (var item in test)
-			{
-				UserSetting.Log(item.Key + "," + item.Value.ToString());
-			}
-
-			return ;
 			List<string> filePathList = FileOpera.FindAllFiles(UserSetting.InputDocPath,".xlsx");
 
 			if(filePathList.Count == 0)

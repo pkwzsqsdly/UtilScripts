@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="3.1.0" />
-    <ProjectReference Include="D:/project/proj-other/LGTableUtil/LGTableUtil.csproj" />
+    <ProjectReference Include="../ZaGameFramework/ZaGF.csproj" />
     <!-- <Reference Include="LitJson">
       <HintPath>libs/LitJson.dll</HintPath>
     </Reference> -->
