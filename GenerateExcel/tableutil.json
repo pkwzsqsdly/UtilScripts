@@ -1,1 +1,25 @@
-﻿{"fileInfos":{"ver:0.0.1":{"version":"ver:0.0.1","fileInfos":[{"name":"BuffData","md5":"c2310290361a4af19d5922e5b0a85459","number":0}]},"ver:0.0.2":{"version":"ver:0.0.2","fileInfos":[]}},"latest":"ver:0.0.2"}
+﻿{
+    "fileInfos": {
+        "ver:0.0.1": {
+            "version": "ver:0.0.1",
+            "fileInfos": [
+                {
+                    "name": "BuffData",
+                    "md5": "c2310290361a4af19d5922e5b0a85459",
+                    "number": 0
+                }
+            ]
+        },
+        "ver:0.0.2": {
+            "version": "ver:0.0.2",
+            "fileInfos": [
+                {
+                    "name": "BuffData",
+                    "md5": "ab417903a2477466b95b816764ccf36c",
+                    "number": 0
+                }
+            ]
+        }
+    },
+    "latest": "ver:0.0.2"
+}
