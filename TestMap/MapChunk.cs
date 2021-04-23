@@ -1,4 +1,5 @@
 
+
 public class MapChunk 
 {
 	public enum RotateType
@@ -63,4 +64,5 @@ public class MapChunk
 
 		return false;
 	}
+
 }

@@ -81,4 +81,8 @@ public struct Coord2d
 
 	public static Coord2d zero => new Coord2d(0,0);
 	public int mix => x + y;
+	public Coord2d left => new Coord2d(x - 1,y);
+	public Coord2d right => new Coord2d(x + 1,y);
+	public Coord2d top => new Coord2d(x,y - 1);
+	public Coord2d bottom => new Coord2d(x,y + 1);
 }

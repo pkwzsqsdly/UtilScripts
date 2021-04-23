@@ -2,6 +2,7 @@ using System.Collections.Generic;
 
 public class MapChunkTample
 {
+	public int Count => _tamples.Count;
 	private List<MapChunk> _tamples;
 	private int _mapSize;
 
@@ -16,7 +17,10 @@ public class MapChunkTample
 		var mapChunk = new MapChunk(data,_mapSize);
 		_tamples.Add(mapChunk);
 	}
-
+	public MapChunk GetTample(int index)
+	{
+		return _tamples[index];
+	}
 	public MapChunk GetMapWithLink(Coord2d coord)
 	{
 		int link = 0;

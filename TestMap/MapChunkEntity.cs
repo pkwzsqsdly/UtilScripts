@@ -3,12 +3,14 @@ using System.Text;
 
 public class MapChunkEntity
 {
+	public Coord2d coord {get; private set;}
 	public MapChunk.RotateType RotateType{get;private set;}
 	private MapChunk _chunk;
 	private Dictionary<MapChunk.Direction,List<Coord2d>> _linkDic;
 	private char[,] _currBlocks;
-	public MapChunkEntity(MapChunk chunk)
+	public MapChunkEntity(MapChunk chunk,Coord2d coord)
 	{
+		this.coord = coord;
 		_chunk = chunk;
 		_linkDic = new Dictionary<MapChunk.Direction, List<Coord2d>>();
 		Rotate(MapChunk.RotateType.Rotate0);
@@ -133,6 +135,7 @@ public class MapChunkEntity
 
 		for (int i = 0; i < _currBlocks.GetLength(0); i++)
 		{
+			sb.Append($"line {i} = ");
 			for (int j = 0; j < _currBlocks.GetLength(1); j++)
 			{
 				sb.Append(_currBlocks[i,j]);
