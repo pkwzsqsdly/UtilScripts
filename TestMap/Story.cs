@@ -2,14 +2,17 @@ using System.Collections.Generic;
 
 public class Story {
 	private List<Choose> _chooses;
+	private int _index;
 
 	//路程距离
 	private int _distance;
+	
 	//当前这段路的随机组id  决定遇敌几率 怪物 物品 隐藏
 	private int _randomId;
-	public Story()
+	public Story(int index)
 	{
 		_chooses = new List<Choose>();
+		_index = index;
 	}
 
 	public void ShowChooses(System.Action<Choose> action)
