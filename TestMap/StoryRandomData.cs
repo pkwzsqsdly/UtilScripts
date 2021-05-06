@@ -1,23 +1,68 @@
 
 
-public class StoryRandomData {
-	public int chance;
-	public int state;
-	public int weight;
-	public int distance;
-	public int forks;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
-	public int rangeMin;
-	public int rangeMax;
+public class StoryRandomData
+{
+	public int storyId;
+	public int storyType;
+	
+	private List<StoryRandomData> _linkDatas;
+	private int _chooseNum;
+	private List<int> _canLinkTypes;
 
-
-	public StoryRandomData(int chance,int state)
+	public StoryRandomData(int storyId,int storyType)
 	{
-		this.chance = chance;
-		this.state = state;
-		weight = 0;
-		var ran = new System.Random();
-		distance = ran.Next(5,10);
-		forks = ran.Next(0,3) + 1;
+		this.storyId = storyId;
+		this.storyType = storyType;
+		_chooseNum = new Random().Next(1, 4);
+		_linkDatas = new List<StoryRandomData>();
+		_canLinkTypes = new List<int>();
+	}
+
+	public StoryRandomData InitLinkTypes(params int[] ids)
+	{
+		_canLinkTypes.AddRange(ids);
+		return this;
+	}
+	public StoryRandomData InitLinkTypes(List<int> ids)
+	{
+		_canLinkTypes.AddRange(ids);
+		return this;
+	}
+	public StoryRandomData AddLinkType(int id)
+	{
+		_canLinkTypes.Add(id);
+		return this;
+	}
+
+	public bool IsCanLink(int type)
+	{
+		Console.WriteLine(_chooseNum + "=IsCanLink=" + _canLinkTypes.Count);
+		return _chooseNum > _linkDatas.Count && _canLinkTypes.FindIndex(x => x == type) >= 0;
+	}
+
+	public void LinkStoryData(StoryRandomData data)
+	{
+		if (!_linkDatas.Contains(data))
+		{
+			_linkDatas.Add(data);
+		}
+	}
+
+	public override string ToString()
+	{
+		StringBuilder sb = new StringBuilder();
+		sb.Append("[");
+		for (int i = 0; i < _linkDatas.Count; i++)
+		{
+			sb.Append(_linkDatas[i].storyId);
+			sb.Append(",");
+		}
+		sb.Append("]");
+		
+		return $"(id={storyId},st={storyType},link={sb.ToString()})";
 	}
 }
