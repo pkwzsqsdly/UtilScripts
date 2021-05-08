@@ -12,7 +12,7 @@ public class FruitData
 	public float speedAddup;
 	public FruitData(int count,float speedStart)
 	{
-		this.count = count;
+		this.resultCount = count;
 		this.speedOnStart = speedStart;
 		this.preRotate = 1;
 		this.speedAddup = 0.2f;

@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 
-public class Story {
+public class Story 
+{
 	private List<Choose> _chooses;
 	public int index {get;set;}
 	public int storyType {get;protected set;}

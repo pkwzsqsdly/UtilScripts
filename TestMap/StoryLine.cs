@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 
-public class StoryLine {
+public class StoryLine 
+{
 	private List<Story> _storys;
 	private int _depth;
 	public StoryLine(int depth = 10)
@@ -29,7 +30,5 @@ public class StoryLine {
 	{
 		_storys.Clear();
 		InitStory();
-
-		
 	}
 }

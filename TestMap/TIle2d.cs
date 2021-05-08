@@ -1,4 +1,3 @@
-
 public class Tile2d
 {
     public Coord2d coord2d;
