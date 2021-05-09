@@ -1,83 +1,100 @@
 ﻿using System;
 
-namespace TestMap
+public class CustomAtt
 {
-    public class CustomAtt
+    public string AttName { get; protected set; }
+    public int AttValue { get; set; }
+    public int AttType{ get; protected set; }
+
+    public CustomAtt(string attName,int attValue,int attType)
     {
-        public string attName { get; protected set; }
-        public int attValue { get; set; }
-        public int attType{ get; protected set; }
+        ResetAttribute(attName,attValue,attType);
 
-        public CustomAtt(string attName,int attValue,int attType)
-        {
-            ResetAttribute(attName,attValue,attType);
+    }
+    public CustomAtt(int attValue,int attType)
+    {
+        ResetAttribute(null,attValue,attType);
 
-        }
-        public CustomAtt(int attValue,int attType)
-        {
-            ResetAttribute(null,attValue,attType);
+    }
+    public CustomAtt(int attValue)
+    {
+        ResetAttribute(null,attValue,0);
+    }
 
-        }
-        public CustomAtt(int attValue)
-        {
-            ResetAttribute(null,attValue,0);
-        }
+    public void ResetAttribute(string attName, int attValue, int attType)
+    {
+        AttName = attName;
+        AttValue = attValue;
+        AttType = attType;
+    }
+    protected bool Equals(CustomAtt other)
+    {
+        return AttName == other.AttName && AttValue == other.AttValue && AttType == other.AttType;
+    }
 
-        public void ResetAttribute(string attName, int attValue, int attType)
-        {
-            this.attName = attName;
-            this.attValue = attValue;
-            this.attType = attType;
-        }
-        protected bool Equals(CustomAtt other)
-        {
-            return attName == other.attName && attValue == other.attValue && attType == other.attType;
-        }
+    public override bool Equals(object obj)
+    {
+        if (ReferenceEquals(null, obj)) return false;
+        if (ReferenceEquals(this, obj)) return true;
+        return obj.GetType() == this.GetType() && Equals((CustomAtt) obj);
+    }
 
-        public override bool Equals(object obj)
-        {
-            if (ReferenceEquals(null, obj)) return false;
-            if (ReferenceEquals(this, obj)) return true;
-            if (obj.GetType() != this.GetType()) return false;
-            return Equals((CustomAtt) obj);
-        }
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(AttName, AttValue, AttType);
+    }
+    public static bool operator ==(CustomAtt v1, CustomAtt v2)
+    {
+        return v1 is not null && v1.Equals(v2);
+    }
 
-        public override int GetHashCode()
-        {
-            return HashCode.Combine(attName, attValue, attType);
-        }
-        public static bool operator ==(CustomAtt v1, CustomAtt v2)
-        {
-            return v1.Equals(v2);
-        }
+    public static bool operator !=(CustomAtt v1, CustomAtt v2)
+    {
+        return v1 is not null && !v1.Equals(v2);
+    }
 
-        public static bool operator !=(CustomAtt v1, CustomAtt v2)
-        {
-            return !v1.Equals(v2);
-        }
+    public static CustomAtt operator +(CustomAtt v1, int i2)
+    {
+        v1.AttValue += i2;
+        return v1;
+    }
+    public static int operator +(CustomAtt v1, CustomAtt v2)
+    {
+        return v1.AttValue + v2.AttValue;
+    }
 
-        public static CustomAtt operator +(CustomAtt v1, int i2)
-        {
-            v1.attValue += i2;
-            return v1;
-        }
+    public static CustomAtt operator -(CustomAtt v1, int i2)
+    {
+        v1.AttValue -= i2;
+        return v1;
+    }
+    public static int operator -(CustomAtt v1, CustomAtt v2)
+    {
+        return v1.AttValue - v2.AttValue;
+    }
 
-        public static CustomAtt operator -(CustomAtt v1, int i2)
-        {
-            v1.attValue -= i2;
-            return v1;
-        }
+    public static CustomAtt operator *(CustomAtt v1, int i2)
+    {
+        v1.AttValue *= i2;
+        return v1;
+    }
+    public static int operator *(CustomAtt v1, CustomAtt v2)
+    {
+        return v1.AttValue * v2.AttValue;
+    }
 
-        public static CustomAtt operator *(CustomAtt v1, int i2)
-        {
-            v1.attValue *= i2;
-            return v1;
-        }
+    public static CustomAtt operator /(CustomAtt v1, int i2)
+    {
+        v1.AttValue /= i2;
+        return v1;
+    }
+    public static int operator /(CustomAtt v1, CustomAtt v2)
+    {
+        return v1.AttValue / v2.AttValue;
+    }
 
-        public static CustomAtt operator /(CustomAtt v1, int i2)
-        {
-            v1.attValue /= i2;
-            return v1;
-        }
+    public override string ToString()
+    {
+        return $"n:{AttName},v:{AttValue},t:{AttType}";
     }
 }
