@@ -1,32 +1,32 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-public class CustomAttList
+public class AttInfo
 {
-    protected Dictionary<string,CustomAtt> _attDic;
+    protected Dictionary<string,AttObject> _attDic;
 
-    public CustomAtt this[string name]
+    public AttObject this[string name]
     {
         get => GetAtt(name);
         set => AddAtt(value);
     }
 
-    public CustomAttList()
+    public AttInfo()
     {
-        _attDic = new Dictionary<string, CustomAtt>();
+        _attDic = new Dictionary<string, AttObject>();
     }
 
-    public void AddAtt(CustomAtt att)
+    public void AddAtt(AttObject attObject)
     {
-        if (!_attDic.ContainsKey(att.AttName))
+        if (!_attDic.ContainsKey(attObject.AttName))
         {
-            _attDic.Add(att.AttName,att);
+            _attDic.Add(attObject.AttName,attObject);
         }
     }
 
-    public void RemoveAtt(CustomAtt att)
+    public void RemoveAtt(AttObject attObject)
     {
-        RemoveAtt(att.AttName);
+        RemoveAtt(attObject.AttName);
     }
     public void RemoveAtt(string attName)
     {
@@ -36,9 +36,9 @@ public class CustomAttList
         }
     }
 
-    public List<CustomAtt> Collect(Func<CustomAtt,bool> condition)
+    public List<AttObject> Collect(Func<AttObject,bool> condition)
     {
-        var list = new List<CustomAtt>();
+        var list = new List<AttObject>();
         foreach (var item in _attDic)
         {
             if (condition(item.Value))
@@ -49,7 +49,7 @@ public class CustomAttList
         return list;
     }
 
-    public CustomAtt GetAtt(string attName)
+    public AttObject GetAtt(string attName)
     {
         if (_attDic.ContainsKey(attName))
         {

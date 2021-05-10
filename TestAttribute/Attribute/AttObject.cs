@@ -1,22 +1,22 @@
 ﻿using System;
 
-public class CustomAtt
+public class AttObject
 {
     public string AttName { get; protected set; }
     public int AttValue { get; set; }
     public int AttType{ get; protected set; }
 
-    public CustomAtt(string attName,int attValue,int attType)
+    public AttObject(string attName,int attValue,int attType)
     {
         ResetAttribute(attName,attValue,attType);
 
     }
-    public CustomAtt(int attValue,int attType)
+    public AttObject(int attValue,int attType)
     {
         ResetAttribute(null,attValue,attType);
 
     }
-    public CustomAtt(int attValue)
+    public AttObject(int attValue)
     {
         ResetAttribute(null,attValue,0);
     }
@@ -27,7 +27,7 @@ public class CustomAtt
         AttValue = attValue;
         AttType = attType;
     }
-    protected bool Equals(CustomAtt other)
+    protected bool Equals(AttObject other)
     {
         return AttName == other.AttName && AttValue == other.AttValue && AttType == other.AttType;
     }
@@ -36,59 +36,59 @@ public class CustomAtt
     {
         if (ReferenceEquals(null, obj)) return false;
         if (ReferenceEquals(this, obj)) return true;
-        return obj.GetType() == this.GetType() && Equals((CustomAtt) obj);
+        return obj.GetType() == this.GetType() && Equals((AttObject) obj);
     }
 
     public override int GetHashCode()
     {
         return HashCode.Combine(AttName, AttValue, AttType);
     }
-    public static bool operator ==(CustomAtt v1, CustomAtt v2)
+    public static bool operator ==(AttObject v1, AttObject v2)
     {
         return v1 is not null && v1.Equals(v2);
     }
 
-    public static bool operator !=(CustomAtt v1, CustomAtt v2)
+    public static bool operator !=(AttObject v1, AttObject v2)
     {
         return v1 is not null && !v1.Equals(v2);
     }
 
-    public static CustomAtt operator +(CustomAtt v1, int i2)
+    public static AttObject operator +(AttObject v1, int i2)
     {
         v1.AttValue += i2;
         return v1;
     }
-    public static int operator +(CustomAtt v1, CustomAtt v2)
+    public static int operator +(AttObject v1, AttObject v2)
     {
         return v1.AttValue + v2.AttValue;
     }
 
-    public static CustomAtt operator -(CustomAtt v1, int i2)
+    public static AttObject operator -(AttObject v1, int i2)
     {
         v1.AttValue -= i2;
         return v1;
     }
-    public static int operator -(CustomAtt v1, CustomAtt v2)
+    public static int operator -(AttObject v1, AttObject v2)
     {
         return v1.AttValue - v2.AttValue;
     }
 
-    public static CustomAtt operator *(CustomAtt v1, int i2)
+    public static AttObject operator *(AttObject v1, int i2)
     {
         v1.AttValue *= i2;
         return v1;
     }
-    public static int operator *(CustomAtt v1, CustomAtt v2)
+    public static int operator *(AttObject v1, AttObject v2)
     {
         return v1.AttValue * v2.AttValue;
     }
 
-    public static CustomAtt operator /(CustomAtt v1, int i2)
+    public static AttObject operator /(AttObject v1, int i2)
     {
         v1.AttValue /= i2;
         return v1;
     }
-    public static int operator /(CustomAtt v1, CustomAtt v2)
+    public static int operator /(AttObject v1, AttObject v2)
     {
         return v1.AttValue / v2.AttValue;
     }
